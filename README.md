@@ -1,3 +1,6 @@
+Video Submission - https://drive.google.com/file/d/1C5AUkVciPgXHvxOEfd2JhPcKgOTsW4zv/view?usp=sharing
+
+
 # StatementIQ — Bank Statement Processing & Classification
 
 A Flask prototype that ingests bank statement PDFs (text-based or scanned), extracts transactions, validates them, classifies them **without LLMs**, and exports the reviewed ledger to CSV/XLSX.
