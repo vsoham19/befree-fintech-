@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "categories": [
+    {"name": "Food & Dining", "color": "#F59E0B", "keywords": ["restaurant", "cafe", "food", "swiggy", "zomato"]},
+    {"name": "Groceries", "color": "#10B981", "keywords": ["grocery", "supermarket", "bigbasket", "dmart"]},
+    {"name": "Shopping", "color": "#6366F1", "keywords": ["amazon", "flipkart", "myntra", "shopping"]},
+    {"name": "Transport", "color": "#0EA5E9", "keywords": ["uber", "ola", "metro", "fuel"]},
+    {"name": "Travel", "color": "#8B5CF6", "keywords": ["irctc", "flight", "hotel", "travel"]},
+    {"name": "Utilities & Bills", "color": "#64748B", "keywords": ["electricity", "broadband", "recharge", "bill"]},
+    {"name": "Rent & Housing", "color": "#EC4899", "keywords": ["rent", "landlord", "maintenance"]},
+    {"name": "EMI & Loans", "color": "#EF4444", "keywords": ["emi", "loan", "repayment"]},
+    {"name": "Salary & Income", "color": "#22C55E", "keywords": ["salary", "interest", "dividend", "cashback", "refund"]},
+    {"name": "Transfers", "color": "#14B8A6", "keywords": ["upi", "neft", "imps", "transfer"]},
+    {"name": "Cash & ATM", "color": "#A3A3A3", "keywords": ["atm", "cash withdrawal"]},
+    {"name": "Entertainment & Subscriptions", "color": "#F97316", "keywords": ["netflix", "spotify", "prime", "subscription"]},
+    {"name": "Healthcare", "color": "#06B6D4", "keywords": ["pharmacy", "hospital", "clinic"]},
+    {"name": "Education", "color": "#3B82F6", "keywords": ["school", "college", "tuition", "course"]},
+    {"name": "Fees & Charges", "color": "#78716C", "keywords": ["charges", "fee", "gst", "penalty"]},
+    {"name": "Uncategorized", "color": "#94A3B8", "keywords": []}
+  ]
+}

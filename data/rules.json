@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "salary_credit",
+      "category": "Salary & Income",
+      "direction": "credit",
+      "confidence": 0.98,
+      "patterns": ["\\bsalary\\b", "\\bsal cr\\b", "\\bpayroll\\b", "\\bwages\\b", "\\bstipend\\b", "by salary"]
+    },
+    {
+      "id": "interest_credit",
+      "category": "Salary & Income",
+      "direction": "credit",
+      "confidence": 0.95,
+      "patterns": ["credit interest", "interest credited", "\\bint\\.?\\s*(?:cr|credit)\\b", "\\binterest\\b"]
+    },
+    {
+      "id": "dividend_credit",
+      "category": "Salary & Income",
+      "direction": "credit",
+      "confidence": 0.94,
+      "patterns": ["\\bdividend\\b"]
+    },
+    {
+      "id": "cashback_credit",
+      "category": "Salary & Income",
+      "direction": "credit",
+      "confidence": 0.93,
+      "patterns": ["\\bcashback\\b", "reward credit"]
+    },
+    {
+      "id": "refund_credit",
+      "category": "Salary & Income",
+      "direction": "credit",
+      "confidence": 0.97,
+      "patterns": ["\\brefund\\b", "\\breversal\\b", "returned to account"]
+    },
+    {
+      "id": "food_merchants",
+      "category": "Food & Dining",
+      "direction": "any",
+      "confidence": 0.96,
+      "patterns": ["\\bswiggy\\b", "\\bzomato\\b", "\\bdominos?\\b", "\\bdomino'?s\\b", "\\bkfc\\b", "\\bmcdonalds?\\b", "\\bstarbucks\\b", "\\bbarbeque nation\\b", "\\bhaldirams?\\b", "\\bthird wave\\b", "\\brebel foods\\b", "\\bburger king\\b", "\\bpizza hut\\b", "\\bsubway\\b"]
+    },
+    {
+      "id": "food_generic",
+      "category": "Food & Dining",
+      "direction": "any",
+      "confidence": 0.8,
+      "patterns": ["\\brestaurant\\b", "\\bcafe\\b", "\\bbakery\\b", "\\bbiryani\\b", "\\bdhaba\\b", "\\beatery\\b", "\\bfood court\\b"]
+    },
+    {
+      "id": "groceries",
+      "category": "Groceries",
+      "direction": "any",
+      "confidence": 0.95,
+      "patterns": ["\\bbigbasket\\b", "\\bbig basket\\b", "\\bblinkit\\b", "\\bzepto\\b", "\\bdmart\\b", "\\bd mart\\b", "\\breliance fresh\\b", "\\bmore supermarket\\b", "\\blicious\\b", "\\bcountry delight\\b", "\\bgrofers\\b", "\\binstamart\\b", "\\bgrocery\\b", "\\bsupermarket\\b"]
+    },
+    {
+      "id": "shopping",
+      "category": "Shopping",
+      "direction": "any",
+      "confidence": 0.93,
+      "patterns": ["\\bamazon\\b", "\\bflipkart\\b", "\\bmyntra\\b", "\\bajio\\b", "\\bnykaa\\b", "\\btata cliq\\b", "\\bcroma\\b", "\\bdecathlon\\b", "\\bmeesho\\b", "\\bsnapdeal\\b", "\\bshopping\\b"]
+    },
+    {
+      "id": "travel",
+      "category": "Travel",
+      "direction": "any",
+      "confidence": 0.94,
+      "patterns": ["\\birctc\\b", "\\bmakemytrip\\b", "\\bmake my trip\\b", "\\bcleartrip\\b", "\\bgoibibo\\b", "\\bindigo\\b", "\\bair india\\b", "\\bredbus\\b", "\\boyo\\b", "\\bhotel\\b", "\\bairlines\\b", "\\brailway\\b", "\\bflight\\b"]
+    },
+    {
+      "id": "transport",
+      "category": "Transport",
+      "direction": "any",
+      "confidence": 0.92,
+      "patterns": ["\\buber\\b", "\\bola\\b", "\\brapido\\b", "\\bmetro\\b", "\\bpetrol\\b", "\\bindianoil\\b", "\\bindian oil\\b", "\\bhp petrol\\b", "\\bshell\\b", "\\bfastag\\b", "\\bblusmart\\b", "\\bcab\\b"]
+    },
+    {
+      "id": "utilities",
+      "category": "Utilities & Bills",
+      "direction": "any",
+      "confidence": 0.93,
+      "patterns": ["\\bairtel\\b", "\\bjio\\b", "\\bvodafone\\b", "\\bvi\\b", "\\bbescom\\b", "\\btata power\\b", "\\badani electricity\\b", "\\bmahanagar gas\\b", "\\bact fibernet\\b", "\\bbroadband\\b", "\\belectricity\\b", "\\bwater bill\\b", "\\bgas bill\\b", "\\bmobile recharge\\b", "\\bdth\\b", "\\bpostpaid\\b"]
+    },
+    {
+      "id": "rent",
+      "category": "Rent & Housing",
+      "direction": "any",
+      "confidence": 0.9,
+      "patterns": ["\\brent\\b", "\\blandlord\\b", "\\bnobroker\\b", "\\bnestaway\\b", "\\bhousing society\\b", "\\bmaintenance\\b"]
+    },
+    {
+      "id": "emi",
+      "category": "EMI & Loans",
+      "direction": "any",
+      "confidence": 0.92,
+      "patterns": ["\\bemi\\b", "\\bloan\\b", "\\bbajaj finance\\b", "\\btata capital\\b", "\\bhome credit\\b", "\\bloan repayment\\b"]
+    },
+    {
+      "id": "cash_atm",
+      "category": "Cash & ATM",
+      "direction": "any",
+      "confidence": 0.97,
+      "patterns": ["\\batm\\b", "cash wdl", "cash withdrawal", "\\bcash\\s+withdrawal\\b"]
+    },
+    {
+      "id": "entertainment",
+      "category": "Entertainment & Subscriptions",
+      "direction": "any",
+      "confidence": 0.95,
+      "patterns": ["\\bnetflix\\b", "\\bspotify\\b", "\\bprime video\\b", "\\bamazon prime\\b", "\\bhotstar\\b", "\\byoutube premium\\b", "\\bbookmyshow\\b", "\\bpvr\\b", "\\binox\\b", "\\bgaana\\b", "\\bsubscription\\b"]
+    },
+    {
+      "id": "healthcare",
+      "category": "Healthcare",
+      "direction": "any",
+      "confidence": 0.94,
+      "patterns": ["\\bapollo\\b", "\\bpharmeasy\\b", "\\b1mg\\b", "\\bpracto\\b", "\\bfortis\\b", "\\bmanipal\\b", "\\bmax healthcare\\b", "\\bnetmeds\\b", "\\bhospital\\b", "\\bpharmacy\\b", "\\bclinic\\b", "\\bdiagnostic\\b"]
+    },
+    {
+      "id": "education",
+      "category": "Education",
+      "direction": "any",
+      "confidence": 0.94,
+      "patterns": ["\\budemy\\b", "\\bcoursera\\b", "\\bbyju\\b", "\\bunacademy\\b", "\\bschool\\s+fees?\\b", "\\bcollege\\s+fees?\\b", "\\btuition\\b", "\\bvedantu\\b", "\\beducation\\b"]
+    },
+    {
+      "id": "fees_charges",
+      "category": "Fees & Charges",
+      "direction": "debit",
+      "confidence": 0.9,
+      "patterns": ["\\bcharges?\\b", "\\bfees?\\b", "\\bgst\\b", "\\bpenalty\\b", "minimum balance", "sms alert", "annual fee", "processing fee", "service charge"]
+    },
+    {
+      "id": "transfers_upi",
+      "category": "Transfers",
+      "direction": "any",
+      "confidence": 0.6,
+      "patterns": ["^upi\\b", "\\bupi[/ -]"]
+    },
+    {
+      "id": "transfers_neft",
+      "category": "Transfers",
+      "direction": "any",
+      "confidence": 0.68,
+      "patterns": ["\\bneft\\b", "\\bimps\\b", "\\brtgs\\b"]
+    },
+    {
+      "id": "transfers_generic",
+      "category": "Transfers",
+      "direction": "any",
+      "confidence": 0.75,
+      "patterns": ["transfer to", "fund transfer", "self transfer"]
+    }
+  ]
+}

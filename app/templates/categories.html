@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#bec6e0","inverse-primary":"#68dba9","tertiary-fixed-dim":"#b4c5ff","on-surface":"#0b1c30","outline":"#6d7a72","surface-container-high":"#dce9ff","on-primary":"#ffffff","surface-container-lowest":"#ffffff","surface-bright":"#f8f9ff","primary-fixed-dim":"#68dba9","outline-variant":"#bccac0","on-primary-fixed-variant":"#005137","on-tertiary":"#ffffff","on-error-container":"#93000a","surface-variant":"#d3e4fe","on-secondary-fixed-variant":"#3f465c","on-secondary-container":"#5c647a","on-tertiary-fixed":"#00174b","on-error":"#ffffff","inverse-surface":"#213145","on-surface-variant":"#3d4a42","on-tertiary-fixed-variant":"#003ea8","primary-fixed":"#85f8c4","surface-container-low":"#eff4ff","surface":"#f8f9ff","on-secondary-fixed":"#131b2e","surface-container":"#e5eeff","on-background":"#0b1c30","on-primary-fixed":"#002114","primary":"#006948","on-tertiary-container":"#fefcff","error":"#ba1a1a","tertiary-container":"#316bf3","inverse-on-surface":"#eaf1ff","tertiary-fixed":"#dbe1ff","surface-dim":"#cbdbf5","on-secondary":"#ffffff","tertiary":"#0051d5","primary-container":"#00855d","secondary-container":"#dae2fd","surface-container-highest":"#d3e4fe","on-primary-container":"#f5fff7","background":"#f8f9ff","error-container":"#ffdad6","secondary":"#565e74","surface-tint":"#006c4a","secondary-fixed":"#dae2fd"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-lg":"1.5rem","margin-lg":"2rem","space-md":"0.75rem","margin":"1.5rem","space-xl":"1.5rem","space-sm":"0.5rem","space-lg":"1rem","gutter":"1rem","space-xs":"0.25rem"},fontFamily:{"body-md":["Inter"],"headline-md":["Inter"],"label-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"financial-numeric":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"financial-numeric-lg":["Inter"],"label-sm":["Inter"],"display":["Inter"]},fontSize:{"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"financial-numeric":["14px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"financial-numeric-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"display":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}};</script><title>StatementIQ · Category Taxonomy</title><link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}"/></head><body class="bg-surface font-body-md text-on-surface antialiased" data-page="categories"><aside class="fixed left-0 top-0 h-full w-64 bg-inverse-surface z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><div class="h-8 w-8 rounded bg-surface-container-lowest flex items-center justify-center"><span class="material-symbols-outlined text-primary text-headline-sm">flutter</span></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="text-inverse-on-surface font-headline-sm text-headline-sm tracking-tight">StatementIQ</span></div><span class="text-inverse-primary font-label-sm text-label-sm uppercase tracking-wider">Fintech Ops v2.4</span></div></div><div class="mt-space-sm px-space-sm py-space-xs rounded bg-inverse-surface/80 flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs"><span class="h-2 w-2 rounded-full bg-primary-fixed"></span><span class="text-inverse-on-surface font-label-sm text-label-sm">Rule Engine: Online</span></div><span class="text-inverse-primary font-label-sm text-label-sm">v4.2</span></div></div><nav class="flex flex-col gap-space-xs px-space-sm mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-headline-sm">grid_view</span><span class="font-body-sm text-body-sm">Dashboard</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="statements" href="#"><span class="material-symbols-outlined text-headline-sm">description</span><span class="font-body-sm text-body-sm">Statements</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="transactions" href="#"><span class="material-symbols-outlined text-headline-sm">receipt_long</span><span class="font-body-sm text-body-sm">Transactions</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="categories" href="#"><span class="material-symbols-outlined text-headline-sm">account_tree</span><span class="font-body-sm text-body-sm">Categories</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-headline-sm">tune</span><span class="font-body-sm text-body-sm">Settings</span></a></nav></div><div class="p-space-md flex flex-col gap-space-md"><button class="w-full flex items-center justify-between px-space-md py-space-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary transition-colors shadow-[0_1px_8px_rgba(0,0,0,0.04)]" type="button"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-headline-sm">upload_file</span><span class="font-headline-sm text-headline-sm">Upload Statement</span></div><span class="px-space-xs py-0.5 rounded bg-on-primary-fixed-variant text-primary-fixed font-label-sm text-label-sm">⌘U</span></button><div class="flex items-center justify-between p-space-sm rounded-lg bg-inverse-surface shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-sm overflow-hidden"><div class="h-8 w-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-headline-sm text-headline-sm shrink-0">PS</div><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-inverse-on-surface truncate">Priya Sharma</span><span class="font-label-sm text-label-sm text-inverse-primary truncate">Senior Ops Analyst</span></div></div><button class="p-space-xs text-inverse-on-surface hover:text-on-primary transition-colors shrink-0" type="button"><span class="material-symbols-outlined text-headline-sm">unfold_more</span></button></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm shrink-0"><span class="text-on-surface font-headline-sm text-headline-sm">StatementIQ</span><span class="material-symbols-outlined text-label-sm">chevron_right</span><span class="text-on-surface-variant">Reconciliation Operations</span></div></div></header><main class="relative pt-16 bg-surface"><div class="flex flex-col w-full">
+<div class="p-space-lg lg:p-margin-lg space-y-space-lg">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="space-y-space-xs">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Categories &amp; rules</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-3xl">
+          Categories and deterministic rules used by the classification engine.
+        </p>
+</div>
+</div>
+<div class="siq-hidden">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Total Categories</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-headline-sm">folder_managed</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline justify-between">
+<span class="font-display text-display text-on-surface" id="cat-kpi-total">0</span>
+<span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-surface-container text-primary">Active</span>
+</div>
+<div class="mt-2 text-outline font-body-sm text-label-sm">Standard COA mapping aligned</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Deterministic Rules</span>
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-headline-sm">data_object</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline justify-between">
+<span class="font-display text-display text-on-surface" id="cat-kpi-rules">0</span>
+<span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed-variant">11 Priority tiers</span>
+</div>
+<div class="mt-2 text-outline font-body-sm text-label-sm">Regex &amp; exact phrase tokens</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Auto-match Accuracy</span>
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-headline-sm">verified</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline justify-between">
+<span class="font-display text-display text-primary" id="cat-kpi-accuracy">0%</span>
+<span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-primary-fixed-dim text-on-primary-fixed">+1.4% MTD</span>
+</div>
+<div class="mt-2 text-outline font-body-sm text-label-sm" id="cat-kpi-accuracy-sub">Auto-classified transaction share</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Uncategorized Buffer</span>
+<div class="w-8 h-8 rounded-lg bg-error-container flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-headline-sm">pending_actions</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline justify-between">
+<span class="font-display text-display text-on-surface" id="cat-kpi-uncategorized">0</span>
+<span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-error-container text-on-error-container">Action Req.</span>
+</div>
+<div class="mt-2 text-outline font-body-sm text-label-sm">Requires manual review or new regex</div>
+</div>
+</div>
+<div class="grid grid-cols-1 xl:grid-cols-3 gap-space-lg">
+<div class="xl:col-span-3 space-y-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm border-none">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-headline-md">account_tree</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Categories</h2>
+<p class="font-body-sm text-body-sm text-outline">Transaction categories and their volume</p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-2.5 top-2 text-outline text-headline-sm pointer-events-none">filter_list</span>
+<input class="pl-8 pr-3 py-1.5 rounded-lg bg-surface-container-low text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container shadow-sm w-48" id="category-filter" placeholder="Filter categories..." type="text"/>
+</div>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low text-outline font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-2.5 px-space-md rounded-l-lg">Category</th>
+<th class="py-2.5 px-space-md text-right">Transactions</th>
+<th class="py-2.5 px-space-md text-right">Rules</th>
+<th class="py-2.5 px-space-md rounded-r-lg text-right">Volume (INR)</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-body-sm font-body-sm" id="categories-tbody">
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">6200</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Payroll &amp; Salaries</span>
+<span class="font-label-sm text-label-sm text-outline">Operating Expense · Employees</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">38 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">19 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 4,82,40,110</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">5120</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-container shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Cloud &amp; Infrastructure</span>
+<span class="font-label-sm text-label-sm text-outline">SaaS &amp; Computing Infrastructure</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">24 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">14 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 1,18,92,450</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">4000</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-fixed-dim shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Client Revenue / Retainer</span>
+<span class="font-label-sm text-label-sm text-outline">Inbound Accounts Receivable</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">56 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">31 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-primary font-bold">₹ 8,92,10,000</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">5100</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Vendor &amp; Subcontractor Payouts</span>
+<span class="font-label-sm text-label-sm text-outline">Trade Payables / Professional Fees</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">41 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">28 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 3,42,88,320</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">2200</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Tax &amp; Statutory Dues - GST/TDS</span>
+<span class="font-label-sm text-label-sm text-outline">Statutory Compliance Reserve</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">17 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">12 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 78,45,000</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">6800</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-outline shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Bank Fees &amp; Forex Charges</span>
+<span class="font-label-sm text-label-sm text-outline">Finance Charges &amp; Processing Fees</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">12 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">9 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 4,12,790</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">6450</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Meals &amp; Office Entertainment</span>
+<span class="font-label-sm text-label-sm text-outline">General Administrative Exp.</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">29 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">16 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 14,29,180</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-space-md">
+<span class="px-2 py-0.5 rounded font-financial-numeric text-label-sm bg-surface-container text-on-surface font-semibold">6100</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-error shrink-0"></span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Director Remuneration</span>
+<span class="font-label-sm text-label-sm text-outline">Executive Board Disbursals</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">8 keys</td>
+<td class="py-3 px-space-md text-on-surface-variant font-label-md">6 active</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">₹ 65,00,000</td>
+<td class="py-3 px-space-md text-right">
+<div class="inline-flex items-center gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Add Rule"><span class="material-symbols-outlined text-headline-sm">add_circle</span></button>
+<button class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface" title="Edit Category"><span class="material-symbols-outlined text-headline-sm">edit</span></button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-headline-md">tune</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Rules</h2>
+<p class="font-body-sm text-body-sm text-outline">Deterministic patterns used before the ML model</p>
+</div>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low text-outline font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-2.5 px-space-md rounded-l-lg">Rule</th>
+<th class="py-2.5 px-space-md">Match condition</th>
+<th class="py-2.5 px-space-md">Category</th>
+<th class="py-2.5 px-space-md rounded-r-lg">Confidence</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-body-sm font-body-sm" id="rules-tbody">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 px-space-md">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-financial-numeric text-label-sm text-on-surface font-bold">1</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">AWS &amp; Cloud Billing</span>
+<span class="font-label-sm text-label-sm text-outline">Debit Auto-Charge / Recurring</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<code class="px-2 py-1 rounded bg-surface-container font-mono text-label-sm text-tertiary select-all">(?i)(AMAZON\s*AWS|AWS\.AMAZON|CLOUD\s*SVCS)</code>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                      Cloud &amp; Infrastructure
+                    </span>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-sm">check_circle</span>
+                      100% Deterministic
+                    </span>
+</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">312</td>
+<td class="py-3 px-space-md text-center">
+<button class="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full bg-primary transition-colors focus:outline-none">
+<span class="translate-x-4 inline-block h-4 w-4 transform rounded-full bg-on-primary shadow ring-0 transition duration-200 mt-0.5 ml-0.5"></span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 px-space-md">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-financial-numeric text-label-sm text-on-surface font-bold">2</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">GST CBIC Tax Challan</span>
+<span class="font-label-sm text-label-sm text-outline">Statutory Treasury Gateway</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<code class="px-2 py-1 rounded bg-surface-container font-mono text-label-sm text-tertiary select-all">(?i)(CBIC\s*GST|GSTN[0-9A-Z]{15}|CPIN\s*[0-9]+)</code>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container text-on-surface text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                      Tax &amp; Statutory Dues
+                    </span>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-sm">check_circle</span>
+                      100% Deterministic
+                    </span>
+</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">48</td>
+<td class="py-3 px-space-md text-center">
+<button class="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full bg-primary transition-colors focus:outline-none">
+<span class="translate-x-4 inline-block h-4 w-4 transform rounded-full bg-on-primary shadow ring-0 transition duration-200 mt-0.5 ml-0.5"></span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 px-space-md">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-financial-numeric text-label-sm text-on-surface font-bold">3</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Swiggy &amp; Zomato Food Orders</span>
+<span class="font-label-sm text-label-sm text-outline">Corporate Card Expense</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<code class="px-2 py-1 rounded bg-surface-container font-mono text-label-sm text-tertiary select-all">(?i)(SWIGGY|ZOMATO|BUNDL\s*TECH|ETERNAL)</code>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container text-on-surface text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed-dim"></span>
+                      Meals &amp; Entertainment
+                    </span>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-sm">verified</span>
+                      98% Regex Match
+                    </span>
+</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">1,402</td>
+<td class="py-3 px-space-md text-center">
+<button class="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full bg-primary transition-colors focus:outline-none">
+<span class="translate-x-4 inline-block h-4 w-4 transform rounded-full bg-on-primary shadow ring-0 transition duration-200 mt-0.5 ml-0.5"></span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 px-space-md">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-financial-numeric text-label-sm text-on-surface font-bold">4</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">NEFT Client Inbound Retainers</span>
+<span class="font-label-sm text-label-sm text-outline">Inbound Settlement Trigger</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<code class="px-2 py-1 rounded bg-surface-container font-mono text-label-sm text-tertiary select-all">(?i)(CMS\/.*INVOICE|RETAINER.*SETTLE|CMS-ADV)</code>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                      Client Revenue
+                    </span>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-sm">troubleshoot</span>
+                      92% High Confidence
+                    </span>
+</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">628</td>
+<td class="py-3 px-space-md text-center">
+<button class="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full bg-primary transition-colors focus:outline-none">
+<span class="translate-x-4 inline-block h-4 w-4 transform rounded-full bg-on-primary shadow ring-0 transition duration-200 mt-0.5 ml-0.5"></span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 px-space-md">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-financial-numeric text-label-sm text-on-surface font-bold">5</span>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">HDFC Bank AMC &amp; Service Charges</span>
+<span class="font-label-sm text-label-sm text-outline">Maintenance &amp; GST surcharge</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<code class="px-2 py-1 rounded bg-surface-container font-mono text-label-sm text-tertiary select-all">(?i)(CHG|GST\s*ON\s*CORP|AMC\s*Q[1-4]|ANNUAL\s*MAINT)</code>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container text-on-surface text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                      Bank Fees &amp; Forex
+                    </span>
+</td>
+<td class="py-3 px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-sm">check_circle</span>
+                      100% Deterministic
+                    </span>
+</td>
+<td class="py-3 px-space-md text-right font-financial-numeric text-financial-numeric text-on-surface">184</td>
+<td class="py-3 px-space-md text-center">
+<button class="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full bg-surface-container transition-colors focus:outline-none">
+<span class="translate-x-0 inline-block h-4 w-4 transform rounded-full bg-outline shadow ring-0 transition duration-200 mt-0.5 ml-0.5"></span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="siq-hidden">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-headline-md">science</span>
+<h3 class="font-headline-md text-headline-sm text-on-surface">Live Rule Regex Tester</h3>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-outline">Sandbox v2.4</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Paste an unformatted statement narration string to simulate engine triage and rule matching before applying live.
+          </p>
+<div class="space-y-space-sm">
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-outline">Test Bank Narration String</label>
+<div class="relative">
+<textarea class="w-full p-2.5 font-mono text-label-sm rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:bg-surface-container shadow-inner resize-none" id="sandbox-input" rows="3">UPI/429812984122/SWIGGY BLR/HDFC0000/FOOD</textarea>
+<button class="absolute right-2 top-2 text-outline hover:text-on-surface text-label-sm px-1.5 py-0.5 rounded bg-surface-container hover:bg-surface-container-high transition-colors" id="btn-clear" type="button">Clear</button>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="flex-1 inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded-lg bg-primary hover:bg-primary-container text-on-primary transition-all font-headline-sm text-body-sm shadow" id="btn-run-sim" type="button">
+<span class="material-symbols-outlined text-headline-sm">play_arrow</span>
+<span>Execute Simulator</span>
+</button>
+<button class="px-2.5 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm" id="btn-sample-aws" type="button">AWS</button>
+<button class="px-2.5 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm" id="btn-sample-gst" type="button">GST</button>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Simulation Output</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold" id="eval-status">Matched Rule #3</span>
+</div>
+<div class="space-y-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-outline">Assigned Category:</span>
+<span class="font-semibold text-on-surface" id="eval-category">Meals &amp; Office Entertainment</span>
+</div>
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-outline">Ledger GL Code:</span>
+<span class="font-mono text-label-sm font-bold text-on-surface" id="eval-gl">6450-Admin</span>
+</div>
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-outline">Rule Precedence:</span>
+<span class="text-on-surface font-medium" id="eval-rule">Swiggy &amp; Zomato Food Orders</span>
+</div>
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-outline">Matched Token:</span>
+<span class="font-mono text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-primary font-bold" id="eval-token">SWIGGY</span>
+</div>
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-outline">Engine Latency:</span>
+<span class="font-financial-numeric text-label-sm text-outline">1.2ms (Deterministic)</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-sm text-on-surface">Taxonomy Distribution</h3>
+<span class="material-symbols-outlined text-outline text-headline-sm">pie_chart</span>
+</div>
+<div class="flex items-center justify-center py-2">
+<svg class="w-36 h-36 transform -rotate-90" viewbox="0 0 36 36">
+<circle class="text-surface-container" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-width="3"></circle>
+<circle class="text-primary" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-dasharray="45 55" stroke-dashoffset="0" stroke-width="3.5"></circle>
+<circle class="text-tertiary-container" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-dasharray="25 75" stroke-dashoffset="-45" stroke-width="3.5"></circle>
+<circle class="text-secondary" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-dasharray="20 80" stroke-dashoffset="-70" stroke-width="3.5"></circle>
+<circle class="text-secondary-fixed-dim" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-dasharray="10 90" stroke-dashoffset="-90" stroke-width="3.5"></circle>
+</svg>
+</div>
+<div class="space-y-2 text-label-sm font-label-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="text-on-surface">Client Revenue</span>
+</div>
+<span class="font-financial-numeric text-on-surface font-semibold">45.0%</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span>
+<span class="text-on-surface">Payroll &amp; Vendor Ops</span>
+</div>
+<span class="font-financial-numeric text-on-surface font-semibold">25.0%</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="text-on-surface">Cloud &amp; Tech Infra</span>
+</div>
+<span class="font-financial-numeric text-on-surface font-semibold">20.0%</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim"></span>
+<span class="text-on-surface">Tax, Meals &amp; Other</span>
+</div>
+<span class="font-financial-numeric text-on-surface font-semibold">10.0%</span>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-headline-sm text-primary">history</span>
+<h4 class="font-headline-sm text-headline-sm">Engine Audit Log</h4>
+</div>
+<div class="space-y-space-xs text-label-sm text-on-surface-variant">
+<div class="p-2 rounded bg-surface-container-low flex justify-between items-center">
+<span>Rule #1 pattern updated by P. Sharma</span>
+<span class="text-outline font-financial-numeric text-label-sm">28m ago</span>
+</div>
+<div class="p-2 rounded bg-surface-container-low flex justify-between items-center">
+<span>COA Code 6450 threshold recalculated</span>
+<span class="text-outline font-financial-numeric text-label-sm">2h ago</span>
+</div>
+<div class="p-2 rounded bg-surface-container-low flex justify-between items-center">
+<span>Deterministic Rule #4 published live</span>
+<span class="text-outline font-financial-numeric text-label-sm">Yesterday</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    (function() {
+      // Ensure the "Categories" link in the shell's sidebar reflects the active state
+      const navLinks = document.querySelectorAll('aside nav a');
+      navLinks.forEach(link => {
+        if (link.getAttribute('data-path') === 'categories') {
+          link.classList.remove('text-inverse-on-surface', 'hover:bg-surface-container-highest', 'hover:text-on-surface');
+          link.classList.add('bg-primary-container', 'text-on-primary-container', 'font-headline-sm');
+        } else {
+          link.classList.remove('bg-primary-container', 'text-on-primary-container');
+          link.classList.add('text-inverse-on-surface');
+        }
+      });
+
+      // Interactive Regex Sandbox Behavior
+      const input = document.getElementById('sandbox-input');
+      const btnRun = document.getElementById('btn-run-sim');
+      const btnClear = document.getElementById('btn-clear');
+      const btnAws = document.getElementById('btn-sample-aws');
+      const btnGst = document.getElementById('btn-sample-gst');
+      
+      const evalStatus = document.getElementById('eval-status');
+      const evalCategory = document.getElementById('eval-category');
+      const evalGl = document.getElementById('eval-gl');
+      const evalRule = document.getElementById('eval-rule');
+      const evalToken = document.getElementById('eval-token');
+
+      function evaluateText() {
+        const txt = (input.value || '').trim();
+        if (!txt) {
+          evalStatus.textContent = 'Awaiting Input';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-surface-container text-outline font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'None';
+          evalGl.textContent = '---';
+          evalRule.textContent = 'None';
+          evalToken.textContent = '---';
+          return;
+        }
+
+        if (/(AMAZON\s*AWS|AWS\.AMAZON|CLOUD\s*SVCS)/i.test(txt)) {
+          evalStatus.textContent = 'Matched Rule #1';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'Cloud & Infrastructure';
+          evalGl.textContent = '5120-Tech';
+          evalRule.textContent = 'AWS & Cloud Billing';
+          const match = txt.match(/(AMAZON\s*AWS|AWS\.AMAZON|CLOUD\s*SVCS)/i);
+          evalToken.textContent = match ? match[0] : 'AWS';
+        } else if (/(CBIC\s*GST|GSTN[0-9A-Z]{15}|CPIN)/i.test(txt)) {
+          evalStatus.textContent = 'Matched Rule #2';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'Tax & Statutory Dues';
+          evalGl.textContent = '2200-Liability';
+          evalRule.textContent = 'GST CBIC Tax Challan';
+          const match = txt.match(/(CBIC\s*GST|GSTN[0-9A-Z]{15}|CPIN)/i);
+          evalToken.textContent = match ? match[0] : 'CBIC';
+        } else if (/(SWIGGY|ZOMATO|BUNDL|FOOD)/i.test(txt)) {
+          evalStatus.textContent = 'Matched Rule #3';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'Meals & Office Entertainment';
+          evalGl.textContent = '6450-Admin';
+          evalRule.textContent = 'Swiggy & Zomato Food Orders';
+          const match = txt.match(/(SWIGGY|ZOMATO|BUNDL|FOOD)/i);
+          evalToken.textContent = match ? match[0] : 'SWIGGY';
+        } else if (/(CMS|INVOICE|RETAINER)/i.test(txt)) {
+          evalStatus.textContent = 'Matched Rule #4';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'Client Revenue / Retainer';
+          evalGl.textContent = '4000-Revenue';
+          evalRule.textContent = 'NEFT Client Inbound Retainers';
+          evalToken.textContent = 'RETAINER';
+        } else {
+          evalStatus.textContent = 'No Deterministic Match';
+          evalStatus.className = 'px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold';
+          evalCategory.textContent = 'Uncategorized Buffer (Pending)';
+          evalGl.textContent = '9999-Suspense';
+          evalRule.textContent = 'Fallback Heuristic';
+          evalToken.textContent = 'None';
+        }
+      }
+
+      btnRun.addEventListener('click', evaluateText);
+      btnClear.addEventListener('click', () => {
+        input.value = '';
+        evaluateText();
+      });
+      btnAws.addEventListener('click', () => {
+        input.value = 'POS 402910 AWS.AMAZON SEATTLE WA US / CLOUD SVCS';
+        evaluateText();
+      });
+      btnGst.addEventListener('click', () => {
+        input.value = 'NEFT RTGS CBIC GST GOVT PORTAL CPIN 90124881';
+        evaluateText();
+      });
+    })();
+  </script>
+</div></main></div>
+<link href="{{ url_for('static', filename='css/app.css') }}" rel="stylesheet"/>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body></html>

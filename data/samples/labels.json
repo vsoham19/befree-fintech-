@@ -1,0 +1,4770 @@
+{
+  "generated_at": "2026-11-04T07:25:54+00:00",
+  "seed": 42,
+  "samples": [
+    {
+      "file": "hdfc_text_001.pdf",
+      "bank": "HDFC Bank",
+      "profile": "hdfc",
+      "pdf_type": "text",
+      "account_holder": "Rahul Sharma",
+      "account_number": "50100721175500",
+      "ifsc": "HDFC0001234",
+      "period_start": "2024-09-01",
+      "period_end": "2024-10-31",
+      "opening_balance": 330605.62,
+      "closing_balance": 348536.94,
+      "transactions": [
+        {
+          "date": "2024-09-02",
+          "description": "NEFT CR-ACCENTURE-SALARY MAY 2025-57503098",
+          "debit": null,
+          "credit": 93043.54,
+          "balance": 423649.16,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-09-03",
+          "description": "UPI-MORE SUPERMARKET-paytm-15699767",
+          "debit": 3070.95,
+          "credit": null,
+          "balance": 420578.21,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-04",
+          "description": "POS/98026219/PRACTO/MUMBAI",
+          "debit": 541.47,
+          "credit": null,
+          "balance": 420036.74,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-09-05",
+          "description": "UPI-DR-78115114-HALDIRAM'S-apl",
+          "debit": 312.39,
+          "credit": null,
+          "balance": 419724.35,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "POS/91039726/BURGER KING/KOLKATA",
+          "debit": 502.68,
+          "credit": null,
+          "balance": 419221.67,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "UPI/DR/19015621/ANANYA DAS/apl",
+          "debit": 10305.58,
+          "credit": null,
+          "balance": 408916.09,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "UPI/VIKRAM SINGH/RENT/49906505",
+          "debit": 22290.43,
+          "credit": null,
+          "balance": 386625.66,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "LOAN EMI/ICICI BANK/08269111",
+          "debit": 27706.36,
+          "credit": null,
+          "balance": 358919.3,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-09-08",
+          "description": "UPI-DR-80319147-AIRTEL-ybl",
+          "debit": 367.64,
+          "credit": null,
+          "balance": 358551.66,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-09-09",
+          "description": "UPI-DR-82217846-NAMMA METRO-okhdfcbank",
+          "debit": 366.31,
+          "credit": null,
+          "balance": 358185.35,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-09",
+          "description": "UPI-DR-30419388-SWIGGY-axl",
+          "debit": 590.23,
+          "credit": null,
+          "balance": 357595.12,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-11",
+          "description": "UPI-BARBEQUE NATION-apl-19192147",
+          "debit": 696.4,
+          "credit": null,
+          "balance": 356898.72,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-11",
+          "description": "POS/30633873/BURGER KING/HYDERABAD",
+          "debit": 1701.43,
+          "credit": null,
+          "balance": 355197.29,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-12",
+          "description": "UPI-DR-83276346-ACT FIBERNET-axl",
+          "debit": 1193.13,
+          "credit": null,
+          "balance": 354004.16,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-09-12",
+          "description": "UPI-DR-02480461-DECATHLON-paytm",
+          "debit": 9756.13,
+          "credit": null,
+          "balance": 344248.03,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-09-13",
+          "description": "UPI-INSTAMART-axl-02848695",
+          "debit": 3222.83,
+          "credit": null,
+          "balance": 341025.2,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-19",
+          "description": "NEFT DR-SNEHA REDDY-42472380",
+          "debit": 5907.57,
+          "credit": null,
+          "balance": 335117.63,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-09-20",
+          "description": "UPI-FASTAG-axl-87303789",
+          "debit": 550.63,
+          "credit": null,
+          "balance": 334567.0,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-24",
+          "description": "ATM CASH WDL DELHI 89959560",
+          "debit": 4638.85,
+          "credit": null,
+          "balance": 329928.15,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-09-25",
+          "description": "CASHBACK CREDIT-20059367",
+          "debit": null,
+          "credit": 476.58,
+          "balance": 330404.73,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-09-25",
+          "description": "POS/16718910/REBEL FOODS/PUNE",
+          "debit": 1304.12,
+          "credit": null,
+          "balance": 329100.61,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-27",
+          "description": "SMS CHARGES 75056060",
+          "debit": 380.23,
+          "credit": null,
+          "balance": 328720.38,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-09-28",
+          "description": "UPI-AJIO-paytm-74853292",
+          "debit": 3532.96,
+          "credit": null,
+          "balance": 325187.42,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-03",
+          "description": "UPI-DR-55124524-COUNTRY DELIGHT-ybl",
+          "debit": 3997.34,
+          "credit": null,
+          "balance": 321190.08,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-03",
+          "description": "SALARY CREDIT-ACCENTURE-MAR 2025",
+          "debit": null,
+          "credit": 106279.14,
+          "balance": 427469.22,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-04",
+          "description": "NEFT DR-PRIYA VERMA-RENT AUG 2025-05295618",
+          "debit": 21382.91,
+          "credit": null,
+          "balance": 406086.31,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-10-06",
+          "description": "UPI-REBEL FOODS-apl-56189025",
+          "debit": 811.17,
+          "credit": null,
+          "balance": 405275.14,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-06",
+          "description": "POS/92261100/SNAPDEAL/MUMBAI",
+          "debit": 7471.72,
+          "credit": null,
+          "balance": 397803.42,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-06",
+          "description": "POS/45698013/SHELL/HYDERABAD",
+          "debit": 555.42,
+          "credit": null,
+          "balance": 397248.0,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-07",
+          "description": "POS/02685078/SUBWAY/CHENNAI",
+          "debit": 681.83,
+          "credit": null,
+          "balance": 396566.17,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-07",
+          "description": "CREDIT INTEREST AUG 2025",
+          "debit": null,
+          "credit": 1139.2,
+          "balance": 397705.37,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-07",
+          "description": "ACH DR-HDFC LTD-EMI-56440212",
+          "debit": 14504.69,
+          "credit": null,
+          "balance": 383200.68,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-10-08",
+          "description": "UPI-NAMMA METRO-paytm-96192744",
+          "debit": 826.86,
+          "credit": null,
+          "balance": 382373.82,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-09",
+          "description": "ATM/CASH WDL/JAIPUR/20785684",
+          "debit": 4058.88,
+          "credit": null,
+          "balance": 378314.94,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-10-09",
+          "description": "UPI-SWIGGY-okhdfcbank-07783689",
+          "debit": 1562.42,
+          "credit": null,
+          "balance": 376752.52,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-11",
+          "description": "TRANSFER TO ARJUN NAIR 07263036",
+          "debit": null,
+          "credit": 17483.19,
+          "balance": 394235.71,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-12",
+          "description": "UPI-BARBEQUE NATION-apl-46907231",
+          "debit": 312.43,
+          "credit": null,
+          "balance": 393923.28,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-12",
+          "description": "UPI-BURGER KING-paytm-46842509",
+          "debit": 910.9,
+          "credit": null,
+          "balance": 393012.38,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-14",
+          "description": "UPI-TATA POWER-okhdfcbank-08308799",
+          "debit": 3475.88,
+          "credit": null,
+          "balance": 389536.5,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-10-15",
+          "description": "UPI-FASTAG-okicici-34570271",
+          "debit": 141.62,
+          "credit": null,
+          "balance": 389394.88,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-17",
+          "description": "UPI-DR-91987998-SPOTIFY-paytm",
+          "debit": 1234.71,
+          "credit": null,
+          "balance": 388160.17,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-10-18",
+          "description": "UPI-DR-08592089-CROMA-ybl",
+          "debit": 8228.1,
+          "credit": null,
+          "balance": 379932.07,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-21",
+          "description": "POS/47140449/TATA CLIQ/JAIPUR",
+          "debit": 11412.82,
+          "credit": null,
+          "balance": 368519.25,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-21",
+          "description": "UPI-DR-98026903-INSTAMART-okhdfcbank",
+          "debit": 1458.7,
+          "credit": null,
+          "balance": 367060.55,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-22",
+          "description": "POS/95718137/BIGBASKET/DELHI",
+          "debit": 1464.55,
+          "credit": null,
+          "balance": 365596.0,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-22",
+          "description": "UPI-DR-07854904-BARBEQUE NATION-axl",
+          "debit": 981.33,
+          "credit": null,
+          "balance": 364614.67,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-27",
+          "description": "TRANSFER TO ISHITA RAO 35254716",
+          "debit": 11192.95,
+          "credit": null,
+          "balance": 353421.72,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-30",
+          "description": "CASH WITHDRAWAL DELHI",
+          "debit": 4368.71,
+          "credit": null,
+          "balance": 349053.01,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-10-30",
+          "description": "UPI-BLINKIT-okicici-63526218",
+          "debit": 516.07,
+          "credit": null,
+          "balance": 348536.94,
+          "category": "Groceries"
+        }
+      ]
+    },
+    {
+      "file": "icici_text_002.pdf",
+      "bank": "ICICI Bank",
+      "profile": "icici",
+      "pdf_type": "text",
+      "account_holder": "Ishita Rao",
+      "account_number": "021733085416",
+      "ifsc": "ICIC0004567",
+      "period_start": "2024-02-01",
+      "period_end": "2024-03-31",
+      "opening_balance": 373833.53,
+      "closing_balance": 369496.2,
+      "transactions": [
+        {
+          "date": "2024-02-02",
+          "description": "BILLPAY SNAPDEAL 75304032",
+          "debit": 5839.48,
+          "credit": null,
+          "balance": 367994.05,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-02-02",
+          "description": "PAYROLL CREDIT COGNIZANT APR 2025",
+          "debit": null,
+          "credit": 110375.44,
+          "balance": 478369.49,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-02-02",
+          "description": "BILLPAY ZOMATO 00627698",
+          "debit": 1190.96,
+          "credit": null,
+          "balance": 477178.53,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-02",
+          "description": "DIVIDEND-INFOSYS-86876564",
+          "debit": null,
+          "credit": 2195.06,
+          "balance": 479373.59,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-02-03",
+          "description": "BILLPAY DOMINO'S 78803713",
+          "debit": 1450.4,
+          "credit": null,
+          "balance": 477923.19,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-03",
+          "description": "POS DECATHLON AHMEDABAD",
+          "debit": 9083.02,
+          "credit": null,
+          "balance": 468840.17,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-02-06",
+          "description": "POS DMART MUMBAI",
+          "debit": 1859.09,
+          "credit": null,
+          "balance": 466981.08,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-02-07",
+          "description": "NEFT DR-PRIYA VERMA-RENT JAN 2025-71286174",
+          "debit": 14576.16,
+          "credit": null,
+          "balance": 452404.92,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-02-09",
+          "description": "UPI/FORTIS HOSPITAL/66084565",
+          "debit": 476.95,
+          "credit": null,
+          "balance": 451927.97,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-02-09",
+          "description": "ACH DR-ICICI BANK-EMI-53469207",
+          "debit": 16668.54,
+          "credit": null,
+          "balance": 435259.43,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-02-10",
+          "description": "BILLPAY ADANI ELECTRICITY 68074201",
+          "debit": 1733.26,
+          "credit": null,
+          "balance": 433526.17,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-02-13",
+          "description": "POS ADANI ELECTRICITY CHENNAI",
+          "debit": 2363.91,
+          "credit": null,
+          "balance": 431162.26,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-02-14",
+          "description": "UPI/BYJU'S/47144796",
+          "debit": 20166.66,
+          "credit": null,
+          "balance": 410995.6,
+          "category": "Education"
+        },
+        {
+          "date": "2024-02-14",
+          "description": "UPI/BOOKMYSHOW/12639014",
+          "debit": 1203.77,
+          "credit": null,
+          "balance": 409791.83,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-02-15",
+          "description": "UPI/OLA/17726692",
+          "debit": 385.07,
+          "credit": null,
+          "balance": 409406.76,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-02-16",
+          "description": "ATM CASH WDL CHENNAI 87967512",
+          "debit": 5879.54,
+          "credit": null,
+          "balance": 403527.22,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-02-17",
+          "description": "BILLPAY CLEARTRIP 57809646",
+          "debit": 8284.84,
+          "credit": null,
+          "balance": 395242.38,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-02-19",
+          "description": "UPI/REBEL FOODS/39882651",
+          "debit": 417.25,
+          "credit": null,
+          "balance": 394825.13,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-20",
+          "description": "ATM/CASH WDL/BENGALURU/09722560",
+          "debit": 6072.56,
+          "credit": null,
+          "balance": 388752.57,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-02-20",
+          "description": "UPI/THIRD WAVE COFFEE/26377891",
+          "debit": 835.78,
+          "credit": null,
+          "balance": 387916.79,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-22",
+          "description": "POS AMAZON DELHI",
+          "debit": 3279.94,
+          "credit": null,
+          "balance": 384636.85,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-02-22",
+          "description": "BILLPAY NAMMA METRO 01123400",
+          "debit": 455.29,
+          "credit": null,
+          "balance": 384181.56,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-02-22",
+          "description": "TRANSFER TO ISHITA RAO 73971550",
+          "debit": 2385.29,
+          "credit": null,
+          "balance": 381796.27,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-02-22",
+          "description": "UPI/DR/38572836/ANANYA DAS/okicici",
+          "debit": 16930.74,
+          "credit": null,
+          "balance": 364865.53,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-02-25",
+          "description": "BILLPAY DOMINO'S 73825714",
+          "debit": 1014.98,
+          "credit": null,
+          "balance": 363850.55,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-25",
+          "description": "UPI/INSTAMART/53193377",
+          "debit": 2655.72,
+          "credit": null,
+          "balance": 361194.83,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-02-29",
+          "description": "POS SUBWAY AHMEDABAD",
+          "debit": 956.86,
+          "credit": null,
+          "balance": 360237.97,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-02",
+          "description": "PAYROLL CREDIT TCS JAN 2025",
+          "debit": null,
+          "credit": 85334.95,
+          "balance": 445572.92,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-03-04",
+          "description": "UPI/PIZZA HUT/41936905",
+          "debit": 1603.07,
+          "credit": null,
+          "balance": 443969.85,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-05",
+          "description": "POS MYNTRA CHENNAI",
+          "debit": 11264.66,
+          "credit": null,
+          "balance": 432705.19,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-03-06",
+          "description": "LOAN EMI/TATA CAPITAL/18885061",
+          "debit": 11785.56,
+          "credit": null,
+          "balance": 420919.63,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-03-06",
+          "description": "POS FLIPKART PUNE",
+          "debit": 3434.02,
+          "credit": null,
+          "balance": 417485.61,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-03-07",
+          "description": "NEFT DR-PRIYA VERMA-RENT JUN 2025-88765755",
+          "debit": 35732.72,
+          "credit": null,
+          "balance": 381752.89,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-03-09",
+          "description": "POS PIZZA HUT KOCHI",
+          "debit": 488.91,
+          "credit": null,
+          "balance": 381263.98,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-10",
+          "description": "POS HALDIRAM'S AHMEDABAD",
+          "debit": 1625.46,
+          "credit": null,
+          "balance": 379638.52,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-11",
+          "description": "POS ADANI ELECTRICITY HYDERABAD",
+          "debit": 620.25,
+          "credit": null,
+          "balance": 379018.27,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-03-11",
+          "description": "UPI/SUBWAY/10570742",
+          "debit": 547.1,
+          "credit": null,
+          "balance": 378471.17,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-13",
+          "description": "UPI/GAANA/95425571",
+          "debit": 556.38,
+          "credit": null,
+          "balance": 377914.79,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-03-14",
+          "description": "NEFT DR-AMIT PATEL-22814044",
+          "debit": 15211.11,
+          "credit": null,
+          "balance": 362703.68,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-03-16",
+          "description": "UPI/RELIANCE FRESH/68177548",
+          "debit": 1884.11,
+          "credit": null,
+          "balance": 360819.57,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-03-17",
+          "description": "ATM/CASH WDL/JAIPUR/32463384",
+          "debit": 9236.14,
+          "credit": null,
+          "balance": 351583.43,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-03-18",
+          "description": "UPI/SHELL/21252593",
+          "debit": 546.48,
+          "credit": null,
+          "balance": 351036.95,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-03-19",
+          "description": "DIVIDEND-COGNIZANT-96748270",
+          "debit": null,
+          "credit": 2857.75,
+          "balance": 353894.7,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-03-23",
+          "description": "UPI/RAPIDO/52564919",
+          "debit": 74.05,
+          "credit": null,
+          "balance": 353820.65,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-03-24",
+          "description": "UPI/BIGBASKET/68687035",
+          "debit": 3228.39,
+          "credit": null,
+          "balance": 350592.26,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-03-25",
+          "description": "BILLPAY SWIGGY 40098509",
+          "debit": 529.11,
+          "credit": null,
+          "balance": 350063.15,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-03-28",
+          "description": "GST ON CHARGES 37197590",
+          "debit": 422.37,
+          "credit": null,
+          "balance": 349640.78,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-03-30",
+          "description": "UPI/CR/25315372/ISHITA RAO/ybl",
+          "debit": null,
+          "credit": 19855.42,
+          "balance": 369496.2,
+          "category": "Transfers"
+        }
+      ]
+    },
+    {
+      "file": "sbi_text_003.pdf",
+      "bank": "State Bank of India",
+      "profile": "sbi",
+      "pdf_type": "text",
+      "account_holder": "Vikram Singh",
+      "account_number": "31045510557",
+      "ifsc": "SBIN0007890",
+      "period_start": "2025-01-01",
+      "period_end": "2025-02-28",
+      "opening_balance": 237554.21,
+      "closing_balance": 211636.54,
+      "transactions": [
+        {
+          "date": "2025-01-03",
+          "description": "POS/INDIANOIL/KOCHI/61942908",
+          "debit": 708.77,
+          "credit": null,
+          "balance": 236845.44,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-01-04",
+          "description": "HOUSE RENT KARAN MEHTA JUN 2025",
+          "debit": 33064.83,
+          "credit": null,
+          "balance": 203780.61,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-01-04",
+          "description": "BY SALARY/WIPRO/SEP 2025/40227757",
+          "debit": null,
+          "credit": 79799.33,
+          "balance": 283579.94,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-01-04",
+          "description": "ANNUAL FEE 34168956",
+          "debit": 372.85,
+          "credit": null,
+          "balance": 283207.09,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2025-01-05",
+          "description": "POS/STARBUCKS/JAIPUR/66954134",
+          "debit": 953.01,
+          "credit": null,
+          "balance": 282254.08,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-01-06",
+          "description": "UPI/DR/57202275/GROFERS/apl",
+          "debit": 2352.54,
+          "credit": null,
+          "balance": 279901.54,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-01-07",
+          "description": "EMI HDFC LTD 18729438",
+          "debit": 10026.46,
+          "credit": null,
+          "balance": 269875.08,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-01-09",
+          "description": "CASH WITHDRAWAL BENGALURU",
+          "debit": 8321.77,
+          "credit": null,
+          "balance": 261553.31,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-01-09",
+          "description": "UPI/DR/78764524/ZOMATO/axl",
+          "debit": 368.94,
+          "credit": null,
+          "balance": 261184.37,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-01-09",
+          "description": "POS/HALDIRAM'S/MUMBAI/74630524",
+          "debit": 1547.83,
+          "credit": null,
+          "balance": 259636.54,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-01-10",
+          "description": "UPI/DR/09149499/MYNTRA/okicici",
+          "debit": 1555.07,
+          "credit": null,
+          "balance": 258081.47,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-01-10",
+          "description": "UPI/DR/70412606/BARBEQUE NATION/axl",
+          "debit": 536.34,
+          "credit": null,
+          "balance": 257545.13,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-01-10",
+          "description": "TRANSFER TO ARJUN NAIR 66056132",
+          "debit": 16360.67,
+          "credit": null,
+          "balance": 241184.46,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-01-13",
+          "description": "NEFT CR-SNEHA REDDY-62672908",
+          "debit": null,
+          "credit": 3226.69,
+          "balance": 244411.15,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-01-14",
+          "description": "UPI/DR/80333845/COUNTRY DELIGHT/ybl",
+          "debit": 2794.51,
+          "credit": null,
+          "balance": 241616.64,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-01-14",
+          "description": "POS/MEESHO/KOLKATA/70562352",
+          "debit": 9298.48,
+          "credit": null,
+          "balance": 232318.16,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-01-14",
+          "description": "POS/VI/KOLKATA/16066101",
+          "debit": 1006.78,
+          "credit": null,
+          "balance": 231311.38,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-01-16",
+          "description": "UPI/DR/34529645/HALDIRAM'S/apl",
+          "debit": 1422.86,
+          "credit": null,
+          "balance": 229888.52,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-01-21",
+          "description": "UPI/DR/03919087/PRACTO/okicici",
+          "debit": 5204.99,
+          "credit": null,
+          "balance": 224683.53,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2025-01-26",
+          "description": "REVERSAL-SNAPDEAL-90428350",
+          "debit": null,
+          "credit": 2432.58,
+          "balance": 227116.11,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-01-26",
+          "description": "UPI/DR/04238890/DELHI METRO/ybl",
+          "debit": 728.62,
+          "credit": null,
+          "balance": 226387.49,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-01-31",
+          "description": "ATM/CASH WDL/JAIPUR/48475563",
+          "debit": 9075.59,
+          "credit": null,
+          "balance": 217311.9,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-02-03",
+          "description": "SALARY CREDIT-TECH MAHINDRA-SEP 2025",
+          "debit": null,
+          "credit": 98956.84,
+          "balance": 316268.74,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-02-04",
+          "description": "UPI/NETMEDS/17930281",
+          "debit": 1447.12,
+          "credit": null,
+          "balance": 314821.62,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2025-02-06",
+          "description": "UPI/DR/36652800/SUBWAY/okhdfcbank",
+          "debit": 476.92,
+          "credit": null,
+          "balance": 314344.7,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-02-07",
+          "description": "RENT PAYMENT-ROHAN JOSHI-34392416",
+          "debit": 22269.97,
+          "credit": null,
+          "balance": 292074.73,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-02-08",
+          "description": "EMI BAJAJ FINANCE 79735495",
+          "debit": 10730.4,
+          "credit": null,
+          "balance": 281344.33,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-02-10",
+          "description": "POS/BWSSB/HYDERABAD/91628909",
+          "debit": 2127.16,
+          "credit": null,
+          "balance": 279217.17,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-02-11",
+          "description": "UPI/DR/95519843/UBER/ybl",
+          "debit": 650.9,
+          "credit": null,
+          "balance": 278566.27,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-02-11",
+          "description": "POS/REBEL FOODS/PUNE/01711530",
+          "debit": 1665.99,
+          "credit": null,
+          "balance": 276900.28,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-02-11",
+          "description": "UPI/DR/72513617/SUBWAY/apl",
+          "debit": 1748.43,
+          "credit": null,
+          "balance": 275151.85,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-02-12",
+          "description": "UPI/BESCOM/91807684",
+          "debit": 456.76,
+          "credit": null,
+          "balance": 274695.09,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-02-13",
+          "description": "POS/DELHI METRO/KOLKATA/33875724",
+          "debit": 474.19,
+          "credit": null,
+          "balance": 274220.9,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-02-13",
+          "description": "UPI/BARBEQUE NATION/87466403",
+          "debit": 707.62,
+          "credit": null,
+          "balance": 273513.28,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-02-16",
+          "description": "POS/HALDIRAM'S/PUNE/00864026",
+          "debit": 403.42,
+          "credit": null,
+          "balance": 273109.86,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-02-18",
+          "description": "POS/COLLEGE FEES/BENGALURU/24220760",
+          "debit": 6410.91,
+          "credit": null,
+          "balance": 266698.95,
+          "category": "Education"
+        },
+        {
+          "date": "2025-02-19",
+          "description": "UPI/DR/40975986/FLIPKART/paytm",
+          "debit": 5907.96,
+          "credit": null,
+          "balance": 260790.99,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-02-19",
+          "description": "UPI/DR/82990333/GAANA/paytm",
+          "debit": 1259.46,
+          "credit": null,
+          "balance": 259531.53,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-02-21",
+          "description": "POS/BIGBASKET/MUMBAI/51253434",
+          "debit": 4246.53,
+          "credit": null,
+          "balance": 255285.0,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-02-23",
+          "description": "UPI/ZEPTO/80832460",
+          "debit": 2295.92,
+          "credit": null,
+          "balance": 252989.08,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-02-24",
+          "description": "NEFT DR-AMIT PATEL-88513518",
+          "debit": 14948.42,
+          "credit": null,
+          "balance": 238040.66,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-02-24",
+          "description": "UPI/DR/62449453/BLINKIT/okicici",
+          "debit": 2968.72,
+          "credit": null,
+          "balance": 235071.94,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-02-26",
+          "description": "POS/NYKAA/BENGALURU/89641182",
+          "debit": 5150.28,
+          "credit": null,
+          "balance": 229921.66,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-02-26",
+          "description": "ATM/CASH WDL/PUNE/55264323",
+          "debit": 9994.86,
+          "credit": null,
+          "balance": 219926.8,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-02-27",
+          "description": "CASH WITHDRAWAL KOLKATA",
+          "debit": 8290.26,
+          "credit": null,
+          "balance": 211636.54,
+          "category": "Cash & ATM"
+        }
+      ]
+    },
+    {
+      "file": "hdfc_text_004.pdf",
+      "bank": "HDFC Bank",
+      "profile": "hdfc",
+      "pdf_type": "text",
+      "account_holder": "Karan Mehta",
+      "account_number": "50100316524775",
+      "ifsc": "HDFC0001234",
+      "period_start": "2024-06-01",
+      "period_end": "2024-07-31",
+      "opening_balance": 346330.39,
+      "closing_balance": 312045.11,
+      "transactions": [
+        {
+          "date": "2024-06-02",
+          "description": "POS/81711111/THIRD WAVE COFFEE/KOLKATA",
+          "debit": 1306.2,
+          "credit": null,
+          "balance": 345024.19,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-02",
+          "description": "BY SALARY/COGNIZANT/APR 2025/86105712",
+          "debit": null,
+          "credit": 115372.48,
+          "balance": 460396.67,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-06-03",
+          "description": "UPI-DR-01638927-MORE SUPERMARKET-okhdfcbank",
+          "debit": 786.78,
+          "credit": null,
+          "balance": 459609.89,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-04",
+          "description": "UPI-REBEL FOODS-ybl-98194546",
+          "debit": 336.54,
+          "credit": null,
+          "balance": 459273.35,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-04",
+          "description": "POS/76755963/BLUSMART/BENGALURU",
+          "debit": 610.18,
+          "credit": null,
+          "balance": 458663.17,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-06-05",
+          "description": "TRANSFER TO SNEHA REDDY 54417332",
+          "debit": 1564.04,
+          "credit": null,
+          "balance": 457099.13,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-06-06",
+          "description": "UPI/KARAN MEHTA/RENT/14500663",
+          "debit": 24931.71,
+          "credit": null,
+          "balance": 432167.42,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-06-07",
+          "description": "UPI-DR-71723892-TATA CLIQ-axl",
+          "debit": 7359.43,
+          "credit": null,
+          "balance": 424807.99,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-06-07",
+          "description": "TATA CAPITAL HOME LOAN EMI 28137066",
+          "debit": 26394.97,
+          "credit": null,
+          "balance": 398413.02,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-06-07",
+          "description": "POS/79618166/VEDANTU/JAIPUR",
+          "debit": 15005.03,
+          "credit": null,
+          "balance": 383407.99,
+          "category": "Education"
+        },
+        {
+          "date": "2024-06-10",
+          "description": "CASH WITHDRAWAL JAIPUR",
+          "debit": 4714.71,
+          "credit": null,
+          "balance": 378693.28,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-06-11",
+          "description": "UPI/DR/55976858/RAHUL SHARMA/apl",
+          "debit": 2750.4,
+          "credit": null,
+          "balance": 375942.88,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-06-13",
+          "description": "UPI-MAHANAGAR GAS-okhdfcbank-25346652",
+          "debit": 2969.96,
+          "credit": null,
+          "balance": 372972.92,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-06-14",
+          "description": "GST ON CHARGES 07288426",
+          "debit": 221.96,
+          "credit": null,
+          "balance": 372750.96,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-06-14",
+          "description": "UPI-BWSSB-ybl-22180490",
+          "debit": 1444.75,
+          "credit": null,
+          "balance": 371306.21,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-06-14",
+          "description": "UPI-DISNEY+ HOTSTAR-apl-71543863",
+          "debit": 397.22,
+          "credit": null,
+          "balance": 370908.99,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-06-15",
+          "description": "UPI-SUBWAY-okicici-96399352",
+          "debit": 1665.7,
+          "credit": null,
+          "balance": 369243.29,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-16",
+          "description": "INT.CR-JUL 2025-56262682",
+          "debit": null,
+          "credit": 2399.44,
+          "balance": 371642.73,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-06-16",
+          "description": "UPI-SWIGGY-axl-52236406",
+          "debit": 565.65,
+          "credit": null,
+          "balance": 371077.08,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-17",
+          "description": "ATM/CASH WDL/MUMBAI/29380127",
+          "debit": 3712.16,
+          "credit": null,
+          "balance": 367364.92,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-06-19",
+          "description": "UPI-DMART-paytm-10535027",
+          "debit": 2624.8,
+          "credit": null,
+          "balance": 364740.12,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-19",
+          "description": "POS/45200743/DMART/JAIPUR",
+          "debit": 528.43,
+          "credit": null,
+          "balance": 364211.69,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-20",
+          "description": "POS/91377623/COUNTRY DELIGHT/PUNE",
+          "debit": 1830.87,
+          "credit": null,
+          "balance": 362380.82,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-22",
+          "description": "POS/76788685/UBER/CHENNAI",
+          "debit": 512.44,
+          "credit": null,
+          "balance": 361868.38,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "UPI-DR-50302996-DOMINO'S-paytm",
+          "debit": 630.15,
+          "credit": null,
+          "balance": 361238.23,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "UPI-INDIANOIL-ybl-22657398",
+          "debit": 469.62,
+          "credit": null,
+          "balance": 360768.61,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "UPI-DR-53953844-1MG-paytm",
+          "debit": 3608.54,
+          "credit": null,
+          "balance": 357160.07,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "UPI-DOMINO'S-axl-74421800",
+          "debit": 834.11,
+          "credit": null,
+          "balance": 356325.96,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-06-29",
+          "description": "UPI-SNAPDEAL-axl-92644241",
+          "debit": 615.99,
+          "credit": null,
+          "balance": 355709.97,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-07-01",
+          "description": "UPI-PHARMEASY-paytm-68619585",
+          "debit": 1373.62,
+          "credit": null,
+          "balance": 354336.35,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-07-03",
+          "description": "SALARY CREDIT-CAPGEMINI-FEB 2025",
+          "debit": null,
+          "credit": 68257.87,
+          "balance": 422594.22,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "POS/51066331/NYKAA/BENGALURU",
+          "debit": 9026.29,
+          "credit": null,
+          "balance": 413567.93,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "UPI/ISHITA RAO/RENT/23377867",
+          "debit": 26536.44,
+          "credit": null,
+          "balance": 387031.49,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-07-06",
+          "description": "UPI-REBEL FOODS-axl-84602367",
+          "debit": 1199.2,
+          "credit": null,
+          "balance": 385832.29,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-07",
+          "description": "POS/20552102/CLEARTRIP/JAIPUR",
+          "debit": 23324.35,
+          "credit": null,
+          "balance": 362507.94,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-07-08",
+          "description": "ICICI BANK HOME LOAN EMI 93926195",
+          "debit": 11543.36,
+          "credit": null,
+          "balance": 350964.58,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-07-08",
+          "description": "POS/69577944/ACT FIBERNET/CHENNAI",
+          "debit": 2818.18,
+          "credit": null,
+          "balance": 348146.4,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "ATM CASH WDL CHENNAI 20680943",
+          "debit": 1087.51,
+          "credit": null,
+          "balance": 347058.89,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "POS/83710940/UBER/HYDERABAD",
+          "debit": 230.32,
+          "credit": null,
+          "balance": 346828.57,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "UPI-INOX-ybl-71549038",
+          "debit": 527.36,
+          "credit": null,
+          "balance": 346301.21,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-07-16",
+          "description": "UPI-DR-24634273-RELIANCE FRESH-paytm",
+          "debit": 1086.04,
+          "credit": null,
+          "balance": 345215.17,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-07-19",
+          "description": "UPI-MCDONALD'S-okicici-40418653",
+          "debit": 473.5,
+          "credit": null,
+          "balance": 344741.67,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-20",
+          "description": "UPI-SNAPDEAL-apl-35920189",
+          "debit": 9037.28,
+          "credit": null,
+          "balance": 335704.39,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-07-21",
+          "description": "POS/49869464/OLA/CHENNAI",
+          "debit": 380.1,
+          "credit": null,
+          "balance": 335324.29,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-21",
+          "description": "CREDIT INTEREST FEB 2025",
+          "debit": null,
+          "credit": 1035.28,
+          "balance": 336359.57,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "UPI/DR/60932741/AMIT PATEL/ybl",
+          "debit": 2123.4,
+          "credit": null,
+          "balance": 334236.17,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "UPI-DR-15665563-HALDIRAM'S-apl",
+          "debit": 1749.74,
+          "credit": null,
+          "balance": 332486.43,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "UPI-DR-56472775-THIRD WAVE COFFEE-okicici",
+          "debit": 717.41,
+          "credit": null,
+          "balance": 331769.02,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "UPI-DR-57662652-ZOMATO-okhdfcbank",
+          "debit": 846.69,
+          "credit": null,
+          "balance": 330922.33,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-26",
+          "description": "POS/92140002/RELIANCE FRESH/DELHI",
+          "debit": 2546.88,
+          "credit": null,
+          "balance": 328375.45,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-07-27",
+          "description": "NEFT DR-ISHITA RAO-82309739",
+          "debit": 9667.86,
+          "credit": null,
+          "balance": 318707.59,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-07-31",
+          "description": "ATM CASH WDL BENGALURU 75142306",
+          "debit": 6662.48,
+          "credit": null,
+          "balance": 312045.11,
+          "category": "Cash & ATM"
+        }
+      ]
+    },
+    {
+      "file": "icici_text_005.pdf",
+      "bank": "ICICI Bank",
+      "profile": "icici",
+      "pdf_type": "text",
+      "account_holder": "Pooja Iyer",
+      "account_number": "061724639703",
+      "ifsc": "ICIC0004567",
+      "period_start": "2024-09-01",
+      "period_end": "2024-10-31",
+      "opening_balance": 387439.87,
+      "closing_balance": 408825.06,
+      "transactions": [
+        {
+          "date": "2024-09-02",
+          "description": "BY SALARY/DELOITTE/SEP 2025/84683253",
+          "debit": null,
+          "credit": 88636.62,
+          "balance": 476076.49,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-09-02",
+          "description": "POS ZOMATO CHENNAI",
+          "debit": 648.04,
+          "credit": null,
+          "balance": 475428.45,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-05",
+          "description": "BILLPAY SWIGGY 77186595",
+          "debit": 1664.5,
+          "credit": null,
+          "balance": 473763.95,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "BILLPAY RAPIDO 96605353",
+          "debit": 707.13,
+          "credit": null,
+          "balance": 473056.82,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "EMI SBI HOME LOAN 47523467",
+          "debit": 8040.35,
+          "credit": null,
+          "balance": 465016.47,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "HOUSE RENT ANANYA DAS JUN 2025",
+          "debit": 20408.7,
+          "credit": null,
+          "balance": 444607.77,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-09-09",
+          "description": "BILLPAY STARBUCKS 99880614",
+          "debit": 1370.31,
+          "credit": null,
+          "balance": 443237.46,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-10",
+          "description": "IMPS/P2A/95202624/PRIYA VERMA",
+          "debit": null,
+          "credit": 858.58,
+          "balance": 444096.04,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-09-10",
+          "description": "POS DISNEY+ HOTSTAR MUMBAI",
+          "debit": 835.53,
+          "credit": null,
+          "balance": 443260.51,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-09-12",
+          "description": "UPI/BURGER KING/68880521",
+          "debit": 977.06,
+          "credit": null,
+          "balance": 442283.45,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-13",
+          "description": "UPI/AMAZON PRIME/35215883",
+          "debit": 570.72,
+          "credit": null,
+          "balance": 441712.73,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-09-13",
+          "description": "UPI/VI/78444989",
+          "debit": 680.23,
+          "credit": null,
+          "balance": 441032.5,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-09-15",
+          "description": "UPI/VI/64567384",
+          "debit": 286.08,
+          "credit": null,
+          "balance": 440746.42,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-09-15",
+          "description": "BILLPAY MORE SUPERMARKET 84342407",
+          "debit": 577.77,
+          "credit": null,
+          "balance": 440168.65,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-17",
+          "description": "TRANSFER TO VIKRAM SINGH 53755602",
+          "debit": 17616.46,
+          "credit": null,
+          "balance": 422552.19,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-09-18",
+          "description": "POS COUNTRY DELIGHT DELHI",
+          "debit": 2402.76,
+          "credit": null,
+          "balance": 420149.43,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-18",
+          "description": "UPI/MYNTRA/79615013",
+          "debit": 1389.56,
+          "credit": null,
+          "balance": 418759.87,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-09-18",
+          "description": "ATM/CASH WDL/BENGALURU/62485082",
+          "debit": 9643.9,
+          "credit": null,
+          "balance": 409115.97,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-09-19",
+          "description": "UPI/HP PETROL PUMP/03105630",
+          "debit": 101.09,
+          "credit": null,
+          "balance": 409014.88,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-23",
+          "description": "BILLPAY RELIANCE FRESH 73887804",
+          "debit": 4212.22,
+          "credit": null,
+          "balance": 404802.66,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-23",
+          "description": "POS SNAPDEAL KOCHI",
+          "debit": 8799.26,
+          "credit": null,
+          "balance": 396003.4,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-09-24",
+          "description": "POS PIZZA HUT MUMBAI",
+          "debit": 189.58,
+          "credit": null,
+          "balance": 395813.82,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-24",
+          "description": "POS NETMEDS BENGALURU",
+          "debit": 3772.76,
+          "credit": null,
+          "balance": 392041.06,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-09-29",
+          "description": "BILLPAY DOMINO'S 67839209",
+          "debit": 180.89,
+          "credit": null,
+          "balance": 391860.17,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-02",
+          "description": "INTEREST CREDITED-38351302",
+          "debit": null,
+          "credit": 1343.23,
+          "balance": 393203.4,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-03",
+          "description": "NEFT CR-DELOITTE-SALARY JAN 2025-89617475",
+          "debit": null,
+          "credit": 89550.35,
+          "balance": 482753.75,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-03",
+          "description": "UPI/MCDONALD'S/62225762",
+          "debit": 1102.97,
+          "credit": null,
+          "balance": 481650.78,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-04",
+          "description": "POS PHARMEASY DELHI",
+          "debit": 3529.68,
+          "credit": null,
+          "balance": 478121.1,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-10-04",
+          "description": "TRANSFER TO ROHAN JOSHI 09750860",
+          "debit": null,
+          "credit": 14401.52,
+          "balance": 492522.62,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-06",
+          "description": "ACH DR-SBI HOME LOAN-EMI-40434176",
+          "debit": 12597.54,
+          "credit": null,
+          "balance": 479925.08,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-10-07",
+          "description": "UPI/GROFERS/59338574",
+          "debit": 1302.02,
+          "credit": null,
+          "balance": 478623.06,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-07",
+          "description": "UPI/PRIYA VERMA/RENT/19018734",
+          "debit": 14539.0,
+          "credit": null,
+          "balance": 464084.06,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-10-08",
+          "description": "UPI/JIO/42827699",
+          "debit": 1486.94,
+          "credit": null,
+          "balance": 462597.12,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-10-10",
+          "description": "BILLPAY FASTAG 12045674",
+          "debit": 530.43,
+          "credit": null,
+          "balance": 462066.69,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-10",
+          "description": "BILLPAY ACT FIBERNET 00744906",
+          "debit": 614.31,
+          "credit": null,
+          "balance": 461452.38,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-10-11",
+          "description": "POS ZOMATO AHMEDABAD",
+          "debit": 162.26,
+          "credit": null,
+          "balance": 461290.12,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-13",
+          "description": "UPI/MORE SUPERMARKET/04790673",
+          "debit": 2498.1,
+          "credit": null,
+          "balance": 458792.02,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-14",
+          "description": "ATM/CASH WDL/KOCHI/77504109",
+          "debit": 1317.94,
+          "credit": null,
+          "balance": 457474.08,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-10-15",
+          "description": "UPI/NETFLIX/15148274",
+          "debit": 1149.93,
+          "credit": null,
+          "balance": 456324.15,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-10-16",
+          "description": "BILLPAY DECATHLON 27367113",
+          "debit": 8821.59,
+          "credit": null,
+          "balance": 447502.56,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-17",
+          "description": "POS MORE SUPERMARKET PUNE",
+          "debit": 1904.42,
+          "credit": null,
+          "balance": 445598.14,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-18",
+          "description": "UPI/NYKAA/30004563",
+          "debit": 6431.45,
+          "credit": null,
+          "balance": 439166.69,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-20",
+          "description": "POS OLA KOCHI",
+          "debit": 160.78,
+          "credit": null,
+          "balance": 439005.91,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-21",
+          "description": "ATM CASH WDL KOLKATA 39281092",
+          "debit": 7993.95,
+          "credit": null,
+          "balance": 431011.96,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-10-22",
+          "description": "POS DOMINO'S MUMBAI",
+          "debit": 207.52,
+          "credit": null,
+          "balance": 430804.44,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-23",
+          "description": "BILLPAY PVR 23671593",
+          "debit": 1209.27,
+          "credit": null,
+          "balance": 429595.17,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-10-24",
+          "description": "UPI/PIZZA HUT/03168630",
+          "debit": 485.15,
+          "credit": null,
+          "balance": 429110.02,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-25",
+          "description": "BILLPAY DECATHLON 90337426",
+          "debit": 11593.46,
+          "credit": null,
+          "balance": 417516.56,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-27",
+          "description": "BILLPAY UDEMY 06980680",
+          "debit": 2328.25,
+          "credit": null,
+          "balance": 415188.31,
+          "category": "Education"
+        },
+        {
+          "date": "2024-10-27",
+          "description": "POS ZEPTO KOCHI",
+          "debit": 4398.58,
+          "credit": null,
+          "balance": 410789.73,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-28",
+          "description": "NEFT DR-ISHITA RAO-00975267",
+          "debit": 804.79,
+          "credit": null,
+          "balance": 409984.94,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-31",
+          "description": "BILLPAY SUBWAY 67302150",
+          "debit": 1159.88,
+          "credit": null,
+          "balance": 408825.06,
+          "category": "Food & Dining"
+        }
+      ]
+    },
+    {
+      "file": "sbi_text_006.pdf",
+      "bank": "State Bank of India",
+      "profile": "sbi",
+      "pdf_type": "text",
+      "account_holder": "Amit Patel",
+      "account_number": "31903226841",
+      "ifsc": "SBIN0007890",
+      "period_start": "2024-09-01",
+      "period_end": "2024-10-31",
+      "opening_balance": 202766.28,
+      "closing_balance": 200749.41,
+      "transactions": [
+        {
+          "date": "2024-09-01",
+          "description": "SALARY CREDIT-LTIMINDTREE-SEP 2025",
+          "debit": null,
+          "credit": 112010.82,
+          "balance": 314777.1,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-09-04",
+          "description": "UPI/DR/40367571/DMART/apl",
+          "debit": 766.06,
+          "credit": null,
+          "balance": 314011.04,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-04",
+          "description": "UPI/NYKAA/62034517",
+          "debit": 10816.02,
+          "credit": null,
+          "balance": 303195.02,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-09-05",
+          "description": "DIVIDEND-DELOITTE-29126485",
+          "debit": null,
+          "credit": 2258.07,
+          "balance": 305453.09,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-09-05",
+          "description": "SMS CHARGES 85356746",
+          "debit": 529.49,
+          "credit": null,
+          "balance": 304923.6,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-09-06",
+          "description": "EMI ICICI BANK 34197298",
+          "debit": 24446.82,
+          "credit": null,
+          "balance": 280476.78,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "UPI/DR/35139441/STARBUCKS/okhdfcbank",
+          "debit": 1763.74,
+          "credit": null,
+          "balance": 278713.04,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-07",
+          "description": "NEFT DR-VIKRAM SINGH-RENT FEB 2025-77931406",
+          "debit": 37845.71,
+          "credit": null,
+          "balance": 240867.33,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-09-08",
+          "description": "POS/AMAZON/CHENNAI/10869934",
+          "debit": 11253.71,
+          "credit": null,
+          "balance": 229613.62,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-09-11",
+          "description": "UPI/VI/74982894",
+          "debit": 2051.41,
+          "credit": null,
+          "balance": 227562.21,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-09-11",
+          "description": "UPI/DR/62145918/THIRD WAVE COFFEE/paytm",
+          "debit": 295.94,
+          "credit": null,
+          "balance": 227266.27,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-13",
+          "description": "ATM CASH WDL AHMEDABAD 16219607",
+          "debit": 3701.52,
+          "credit": null,
+          "balance": 223564.75,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-09-14",
+          "description": "POS/HP PETROL PUMP/KOCHI/02514630",
+          "debit": 373.49,
+          "credit": null,
+          "balance": 223191.26,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-14",
+          "description": "UPI/SWIGGY/88636605",
+          "debit": 425.77,
+          "credit": null,
+          "balance": 222765.49,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-17",
+          "description": "UPI/DR/68555714/SPOTIFY/okhdfcbank",
+          "debit": 1222.39,
+          "credit": null,
+          "balance": 221543.1,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-09-19",
+          "description": "UPI/DR/71166329/SPOTIFY/ybl",
+          "debit": 1107.36,
+          "credit": null,
+          "balance": 220435.74,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-09-19",
+          "description": "UPI/MAKEMYTRIP/30016526",
+          "debit": 6922.9,
+          "credit": null,
+          "balance": 213512.84,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-09-22",
+          "description": "POS/THIRD WAVE COFFEE/KOCHI/75791707",
+          "debit": 313.52,
+          "credit": null,
+          "balance": 213199.32,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-24",
+          "description": "UPI/DR/73454327/INDIANOIL/paytm",
+          "debit": 251.15,
+          "credit": null,
+          "balance": 212948.17,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-09-24",
+          "description": "UPI/DR/88930663/BURGER KING/axl",
+          "debit": 856.14,
+          "credit": null,
+          "balance": 212092.03,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-25",
+          "description": "POS/LICIOUS/HYDERABAD/59187275",
+          "debit": 1136.16,
+          "credit": null,
+          "balance": 210955.87,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-09-29",
+          "description": "UPI/DR/07840163/REBEL FOODS/apl",
+          "debit": 530.86,
+          "credit": null,
+          "balance": 210425.01,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-09-30",
+          "description": "NEFT DR-RAHUL SHARMA-59049333",
+          "debit": 11077.54,
+          "credit": null,
+          "balance": 199347.47,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-02",
+          "description": "POS/REBEL FOODS/AHMEDABAD/66548534",
+          "debit": 330.48,
+          "credit": null,
+          "balance": 199016.99,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-03",
+          "description": "IMPS/P2A/34940223/ISHITA RAO",
+          "debit": 15421.28,
+          "credit": null,
+          "balance": 183595.71,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-04",
+          "description": "SAL CR COGNIZANT JUN 2025 59335816",
+          "debit": null,
+          "credit": 66530.17,
+          "balance": 250125.88,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-04",
+          "description": "POS/INSTAMART/JAIPUR/22258697",
+          "debit": 616.35,
+          "credit": null,
+          "balance": 249509.53,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-05",
+          "description": "HOUSE RENT AMIT PATEL SEP 2025",
+          "debit": 23255.67,
+          "credit": null,
+          "balance": 226253.86,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-10-06",
+          "description": "UPI/MANIPAL HOSPITAL/70242778",
+          "debit": 2715.6,
+          "credit": null,
+          "balance": 223538.26,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-10-08",
+          "description": "LOAN EMI/BAJAJ FINANCE/73494922",
+          "debit": 9414.07,
+          "credit": null,
+          "balance": 214124.19,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-10-09",
+          "description": "UPI/REBEL FOODS/94360971",
+          "debit": 1142.64,
+          "credit": null,
+          "balance": 212981.55,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-11",
+          "description": "POS/ACT FIBERNET/PUNE/35372411",
+          "debit": 603.51,
+          "credit": null,
+          "balance": 212378.04,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-10-11",
+          "description": "UPI/NAMMA METRO/37809686",
+          "debit": 293.3,
+          "credit": null,
+          "balance": 212084.74,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-13",
+          "description": "POS/ADANI ELECTRICITY/KOLKATA/99397281",
+          "debit": 225.96,
+          "credit": null,
+          "balance": 211858.78,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-10-14",
+          "description": "UPI/AMAZON/86536874",
+          "debit": 5299.45,
+          "credit": null,
+          "balance": 206559.33,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-15",
+          "description": "UPI/DR/86734726/NYKAA/okhdfcbank",
+          "debit": 3295.4,
+          "credit": null,
+          "balance": 203263.93,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-10-17",
+          "description": "UPI/CR/99171442/NEHA GUPTA/okhdfcbank",
+          "debit": null,
+          "credit": 13118.58,
+          "balance": 216382.51,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-10-19",
+          "description": "UPI/DR/24186926/DOMINO'S/paytm",
+          "debit": 1710.99,
+          "credit": null,
+          "balance": 214671.52,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-19",
+          "description": "REWARD CREDIT-93234505",
+          "debit": null,
+          "credit": 245.06,
+          "balance": 214916.58,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-10-23",
+          "description": "POS/HALDIRAM'S/JAIPUR/63339552",
+          "debit": 158.85,
+          "credit": null,
+          "balance": 214757.73,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-10-25",
+          "description": "UPI/SHELL/92867238",
+          "debit": 761.24,
+          "credit": null,
+          "balance": 213996.49,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-10-28",
+          "description": "UPI/DR/18449541/BLINKIT/okicici",
+          "debit": 3265.04,
+          "credit": null,
+          "balance": 210731.45,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-10-29",
+          "description": "ATM/CASH WDL/BENGALURU/55407680",
+          "debit": 9982.04,
+          "credit": null,
+          "balance": 200749.41,
+          "category": "Cash & ATM"
+        }
+      ]
+    },
+    {
+      "file": "hdfc_text_007.pdf",
+      "bank": "HDFC Bank",
+      "profile": "hdfc",
+      "pdf_type": "text",
+      "account_holder": "Vikram Singh",
+      "account_number": "50100509693779",
+      "ifsc": "HDFC0001234",
+      "period_start": "2024-04-01",
+      "period_end": "2024-05-31",
+      "opening_balance": 408983.65,
+      "closing_balance": 422712.72,
+      "transactions": [
+        {
+          "date": "2024-04-01",
+          "description": "UPI-DR-38669680-BIGBASKET-okhdfcbank",
+          "debit": 3425.84,
+          "credit": null,
+          "balance": 405557.81,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-04-03",
+          "description": "NEFT CR-COGNIZANT-SALARY AUG 2025-13440117",
+          "debit": null,
+          "credit": 129364.2,
+          "balance": 534922.01,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-04-04",
+          "description": "ATM CASH WDL KOLKATA 87552445",
+          "debit": 7417.84,
+          "credit": null,
+          "balance": 527504.17,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-04-06",
+          "description": "SBI HOME LOAN HOME LOAN EMI 44174455",
+          "debit": 16380.14,
+          "credit": null,
+          "balance": 511124.03,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-04-06",
+          "description": "RENT PAYMENT-POOJA IYER-62761161",
+          "debit": 32793.63,
+          "credit": null,
+          "balance": 478330.4,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-04-06",
+          "description": "UPI-MCDONALD'S-okhdfcbank-31254977",
+          "debit": 980.74,
+          "credit": null,
+          "balance": 477349.66,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-06",
+          "description": "POS/68155112/MYNTRA/KOCHI",
+          "debit": 11706.05,
+          "credit": null,
+          "balance": 465643.61,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-04-08",
+          "description": "UPI-STARBUCKS-axl-70842127",
+          "debit": 483.12,
+          "credit": null,
+          "balance": 465160.49,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-09",
+          "description": "POS/73010890/BARBEQUE NATION/JAIPUR",
+          "debit": 1720.54,
+          "credit": null,
+          "balance": 463439.95,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-10",
+          "description": "UPI-DR-94878733-FASTAG-apl",
+          "debit": 614.7,
+          "credit": null,
+          "balance": 462825.25,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-04-12",
+          "description": "UPI/DR/78053785/VIKRAM SINGH/okhdfcbank",
+          "debit": 15740.48,
+          "credit": null,
+          "balance": 447084.77,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-04-13",
+          "description": "UPI-DECATHLON-okicici-79103630",
+          "debit": 10053.86,
+          "credit": null,
+          "balance": 437030.91,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-04-13",
+          "description": "UPI-STARBUCKS-apl-22685137",
+          "debit": 1029.93,
+          "credit": null,
+          "balance": 436000.98,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-14",
+          "description": "POS/43555324/ACT FIBERNET/HYDERABAD",
+          "debit": 629.21,
+          "credit": null,
+          "balance": 435371.77,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-04-21",
+          "description": "UPI-DR-40159181-BLUSMART-okicici",
+          "debit": 504.48,
+          "credit": null,
+          "balance": 434867.29,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-04-25",
+          "description": "POS/82841384/REBEL FOODS/CHENNAI",
+          "debit": 845.9,
+          "credit": null,
+          "balance": 434021.39,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-26",
+          "description": "UPI-DR-06639306-FORTIS HOSPITAL-axl",
+          "debit": 2804.63,
+          "credit": null,
+          "balance": 431216.76,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-04-28",
+          "description": "POS/57957506/DOMINO'S/KOCHI",
+          "debit": 467.5,
+          "credit": null,
+          "balance": 430749.26,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-04-28",
+          "description": "POS/31053095/ZEPTO/BENGALURU",
+          "debit": 488.93,
+          "credit": null,
+          "balance": 430260.33,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-04-29",
+          "description": "SMS CHARGES 34338127",
+          "debit": 213.91,
+          "credit": null,
+          "balance": 430046.42,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-05-02",
+          "description": "UPI-DR-29625734-MEESHO-okhdfcbank",
+          "debit": 7749.08,
+          "credit": null,
+          "balance": 422297.34,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-05-02",
+          "description": "SAL CR ACCENTURE JUN 2025 29094583",
+          "debit": null,
+          "credit": 99848.9,
+          "balance": 522146.24,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-05-05",
+          "description": "REWARD CREDIT-82588969",
+          "debit": null,
+          "credit": 368.04,
+          "balance": 522514.28,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-05-06",
+          "description": "UPI-GROFERS-ybl-00156430",
+          "debit": 308.6,
+          "credit": null,
+          "balance": 522205.68,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-05-07",
+          "description": "RENT PAYMENT-ANANYA DAS-49420293",
+          "debit": 37578.68,
+          "credit": null,
+          "balance": 484627.0,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-05-09",
+          "description": "EMI HDFC LTD 12511766",
+          "debit": 5164.11,
+          "credit": null,
+          "balance": 479462.89,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-05-12",
+          "description": "POS/66804668/MAHANAGAR GAS/JAIPUR",
+          "debit": 276.29,
+          "credit": null,
+          "balance": 479186.6,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-05-12",
+          "description": "UPI-DR-01050794-KFC-okhdfcbank",
+          "debit": 1028.48,
+          "credit": null,
+          "balance": 478158.12,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-05-14",
+          "description": "POS/12303797/BLINKIT/HYDERABAD",
+          "debit": 3830.13,
+          "credit": null,
+          "balance": 474327.99,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-05-14",
+          "description": "UPI/DR/06410084/SNEHA REDDY/apl",
+          "debit": 18422.76,
+          "credit": null,
+          "balance": 455905.23,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-05-14",
+          "description": "POS/11507156/STARBUCKS/KOCHI",
+          "debit": 1003.4,
+          "credit": null,
+          "balance": 454901.83,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-05-14",
+          "description": "UPI-BIGBASKET-okhdfcbank-55146295",
+          "debit": 3468.37,
+          "credit": null,
+          "balance": 451433.46,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-05-15",
+          "description": "UPI-DR-69535964-OLA-paytm",
+          "debit": 219.06,
+          "credit": null,
+          "balance": 451214.4,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-05-15",
+          "description": "IMPS/P2A/21930012/ROHAN JOSHI",
+          "debit": 16385.73,
+          "credit": null,
+          "balance": 434828.67,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-05-15",
+          "description": "UPI-DR-12181683-TATA POWER-paytm",
+          "debit": 789.19,
+          "credit": null,
+          "balance": 434039.48,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-05-16",
+          "description": "UPI-DR-71335920-TAJ HOTELS-okicici",
+          "debit": 3667.54,
+          "credit": null,
+          "balance": 430371.94,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-05-16",
+          "description": "POS/76138735/BOOKMYSHOW/AHMEDABAD",
+          "debit": 258.9,
+          "credit": null,
+          "balance": 430113.04,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-05-17",
+          "description": "POS/42243182/MYNTRA/HYDERABAD",
+          "debit": 2803.52,
+          "credit": null,
+          "balance": 427309.52,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-05-19",
+          "description": "UPI-DR-20420925-SPOTIFY-okicici",
+          "debit": 1235.08,
+          "credit": null,
+          "balance": 426074.44,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-05-21",
+          "description": "POS/16187527/MORE SUPERMARKET/CHENNAI",
+          "debit": 3170.87,
+          "credit": null,
+          "balance": 422903.57,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-05-21",
+          "description": "ATM/CASH WDL/HYDERABAD/45777473",
+          "debit": 7510.02,
+          "credit": null,
+          "balance": 415393.55,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-05-22",
+          "description": "UPI-DR-46324776-INDIANOIL-apl",
+          "debit": 852.42,
+          "credit": null,
+          "balance": 414541.13,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-05-25",
+          "description": "UPI-DR-92351154-ZOMATO-okhdfcbank",
+          "debit": 1096.9,
+          "credit": null,
+          "balance": 413444.23,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-05-26",
+          "description": "POS/60051841/DOMINO'S/CHENNAI",
+          "debit": 489.72,
+          "credit": null,
+          "balance": 412954.51,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-05-26",
+          "description": "IMPS/P2A/53274294/ANANYA DAS",
+          "debit": null,
+          "credit": 9758.21,
+          "balance": 422712.72,
+          "category": "Transfers"
+        }
+      ]
+    },
+    {
+      "file": "icici_text_008.pdf",
+      "bank": "ICICI Bank",
+      "profile": "icici",
+      "pdf_type": "text",
+      "account_holder": "Ishita Rao",
+      "account_number": "073884164366",
+      "ifsc": "ICIC0004567",
+      "period_start": "2024-07-01",
+      "period_end": "2024-08-31",
+      "opening_balance": 359593.43,
+      "closing_balance": 351529.69,
+      "transactions": [
+        {
+          "date": "2024-07-01",
+          "description": "NEFT CR-DELOITTE-SALARY MAR 2025-30235915",
+          "debit": null,
+          "credit": 85884.32,
+          "balance": 445477.75,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-07-02",
+          "description": "UPI/APOLLO PHARMACY/96009457",
+          "debit": 5327.01,
+          "credit": null,
+          "balance": 440150.74,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-07-03",
+          "description": "POS BIGBASKET DELHI",
+          "debit": 1545.78,
+          "credit": null,
+          "balance": 438604.96,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "UPI/PRIYA VERMA/RENT/86285160",
+          "debit": 29290.16,
+          "credit": null,
+          "balance": 409314.8,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-07-07",
+          "description": "BAJAJ FINANCE HOME LOAN EMI 73721224",
+          "debit": 16670.76,
+          "credit": null,
+          "balance": 392644.04,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-07-09",
+          "description": "ATM/CASH WDL/AHMEDABAD/03879517",
+          "debit": 8376.43,
+          "credit": null,
+          "balance": 384267.61,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-07-09",
+          "description": "POS BWSSB BENGALURU",
+          "debit": 825.77,
+          "credit": null,
+          "balance": 383441.84,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-07-09",
+          "description": "INTEREST CREDITED-54666972",
+          "debit": null,
+          "credit": 1928.63,
+          "balance": 385370.47,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-07-12",
+          "description": "POS MAHANAGAR GAS DELHI",
+          "debit": 2187.09,
+          "credit": null,
+          "balance": 383183.38,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-07-12",
+          "description": "UPI/ZEPTO/15782276",
+          "debit": 3356.14,
+          "credit": null,
+          "balance": 379827.24,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-07-13",
+          "description": "UPI/DR/19481017/ARJUN NAIR/paytm",
+          "debit": 3119.48,
+          "credit": null,
+          "balance": 376707.76,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-07-13",
+          "description": "PROCESSING FEE 02967027",
+          "debit": 420.04,
+          "credit": null,
+          "balance": 376287.72,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "UPI/SWIGGY/30331467",
+          "debit": 1702.64,
+          "credit": null,
+          "balance": 374585.08,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "POS NAMMA METRO HYDERABAD",
+          "debit": 407.03,
+          "credit": null,
+          "balance": 374178.05,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-15",
+          "description": "BILLPAY DELHI METRO 21155851",
+          "debit": 820.37,
+          "credit": null,
+          "balance": 373357.68,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-16",
+          "description": "BILLPAY BURGER KING 19093327",
+          "debit": 1707.95,
+          "credit": null,
+          "balance": 371649.73,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-17",
+          "description": "POS NYKAA PUNE",
+          "debit": 7367.88,
+          "credit": null,
+          "balance": 364281.85,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-07-18",
+          "description": "BILLPAY THIRD WAVE COFFEE 73513477",
+          "debit": 1724.21,
+          "credit": null,
+          "balance": 362557.64,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-21",
+          "description": "BILLPAY YOUTUBE PREMIUM 61687539",
+          "debit": 1066.97,
+          "credit": null,
+          "balance": 361490.67,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-07-21",
+          "description": "POS NETFLIX HYDERABAD",
+          "debit": 433.33,
+          "credit": null,
+          "balance": 361057.34,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2024-07-23",
+          "description": "POS VEDANTU JAIPUR",
+          "debit": 6657.67,
+          "credit": null,
+          "balance": 354399.67,
+          "category": "Education"
+        },
+        {
+          "date": "2024-07-24",
+          "description": "IMPS/P2A/39610349/KARAN MEHTA",
+          "debit": 11725.8,
+          "credit": null,
+          "balance": 342673.87,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "UPI/TATA CLIQ/79604836",
+          "debit": 11472.84,
+          "credit": null,
+          "balance": 331201.03,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-07-25",
+          "description": "BILLPAY DOMINO'S 71464500",
+          "debit": 1294.65,
+          "credit": null,
+          "balance": 329906.38,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-07-30",
+          "description": "UPI/ZOMATO/72618604",
+          "debit": 1453.61,
+          "credit": null,
+          "balance": 328452.77,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-08-01",
+          "description": "SAL CR WIPRO AUG 2025 49039576",
+          "debit": null,
+          "credit": 137470.71,
+          "balance": 465923.48,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-08-01",
+          "description": "POS OLA BENGALURU",
+          "debit": 97.58,
+          "credit": null,
+          "balance": 465825.9,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-08-05",
+          "description": "TRANSFER TO NEHA GUPTA 96136864",
+          "debit": 4473.38,
+          "credit": null,
+          "balance": 461352.52,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-08-05",
+          "description": "BILLPAY ZEPTO 71720929",
+          "debit": 1823.84,
+          "credit": null,
+          "balance": 459528.68,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-08-05",
+          "description": "UPI/POOJA IYER/RENT/19337955",
+          "debit": 14575.72,
+          "credit": null,
+          "balance": 444952.96,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-08-06",
+          "description": "ATM/CASH WDL/PUNE/72671975",
+          "debit": 6752.74,
+          "credit": null,
+          "balance": 438200.22,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-08-06",
+          "description": "BILLPAY CROMA 02050298",
+          "debit": 10204.85,
+          "credit": null,
+          "balance": 427995.37,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-08-07",
+          "description": "UPI/CR/77727988/ROHAN JOSHI/apl",
+          "debit": null,
+          "credit": 4208.59,
+          "balance": 432203.96,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-08-08",
+          "description": "POS MCDONALD'S BENGALURU",
+          "debit": 997.58,
+          "credit": null,
+          "balance": 431206.38,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-08-08",
+          "description": "EMI AXIS BANK 98800421",
+          "debit": 23991.73,
+          "credit": null,
+          "balance": 407214.65,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-08-15",
+          "description": "POS VI CHENNAI",
+          "debit": 222.8,
+          "credit": null,
+          "balance": 406991.85,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-08-15",
+          "description": "TRANSFER TO NEHA GUPTA 11462457",
+          "debit": 6958.66,
+          "credit": null,
+          "balance": 400033.19,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-08-15",
+          "description": "POS VI KOLKATA",
+          "debit": 2938.46,
+          "credit": null,
+          "balance": 397094.73,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-08-16",
+          "description": "UPI/ZEPTO/61861142",
+          "debit": 3244.81,
+          "credit": null,
+          "balance": 393849.92,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-08-18",
+          "description": "UPI/SWIGGY/40139728",
+          "debit": 940.67,
+          "credit": null,
+          "balance": 392909.25,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-08-18",
+          "description": "BILLPAY MANIPAL HOSPITAL 00583737",
+          "debit": 2138.84,
+          "credit": null,
+          "balance": 390770.41,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-08-22",
+          "description": "UPI/SCHOOL FEES/14096347",
+          "debit": 26637.2,
+          "credit": null,
+          "balance": 364133.21,
+          "category": "Education"
+        },
+        {
+          "date": "2024-08-22",
+          "description": "BILLPAY MCDONALD'S 90495056",
+          "debit": 753.92,
+          "credit": null,
+          "balance": 363379.29,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-08-23",
+          "description": "BILLPAY HALDIRAM'S 37421126",
+          "debit": 872.28,
+          "credit": null,
+          "balance": 362507.01,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-08-27",
+          "description": "POS UBER DELHI",
+          "debit": 305.15,
+          "credit": null,
+          "balance": 362201.86,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-08-27",
+          "description": "POS LICIOUS BENGALURU",
+          "debit": 1538.56,
+          "credit": null,
+          "balance": 360663.3,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-08-27",
+          "description": "POS AJIO DELHI",
+          "debit": 9133.61,
+          "credit": null,
+          "balance": 351529.69,
+          "category": "Shopping"
+        }
+      ]
+    },
+    {
+      "file": "sbi_image_009.pdf",
+      "bank": "State Bank of India",
+      "profile": "sbi",
+      "pdf_type": "image",
+      "account_holder": "Arjun Nair",
+      "account_number": "32991578630",
+      "ifsc": "SBIN0007890",
+      "period_start": "2024-01-01",
+      "period_end": "2024-02-29",
+      "opening_balance": 189653.71,
+      "closing_balance": 208419.28,
+      "transactions": [
+        {
+          "date": "2024-01-01",
+          "description": "SALARY CREDIT-COGNIZANT-MAY 2025",
+          "debit": null,
+          "credit": 128794.63,
+          "balance": 318448.34,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-01-02",
+          "description": "POS/UBER/DELHI/30937608",
+          "debit": 644.46,
+          "credit": null,
+          "balance": 317803.88,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-01-03",
+          "description": "UPI/DR/47460106/THIRD WAVE COFFEE/okhdfcbank",
+          "debit": 1020.29,
+          "credit": null,
+          "balance": 316783.59,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-05",
+          "description": "UPI/REBEL FOODS/20397403",
+          "debit": 525.07,
+          "credit": null,
+          "balance": 316258.52,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-05",
+          "description": "GST ON CHARGES 37321120",
+          "debit": 109.62,
+          "credit": null,
+          "balance": 316148.9,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2024-01-06",
+          "description": "NEFT DR-AMIT PATEL-RENT JUN 2025-03979533",
+          "debit": 13187.7,
+          "credit": null,
+          "balance": 302961.2,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-01-06",
+          "description": "UPI/ZEPTO/21480788",
+          "debit": 3949.01,
+          "credit": null,
+          "balance": 299012.19,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-01-07",
+          "description": "UPI/DR/87326016/ZOMATO/ybl",
+          "debit": 1701.23,
+          "credit": null,
+          "balance": 297310.96,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-07",
+          "description": "EMI AXIS BANK 23017242",
+          "debit": 11798.99,
+          "credit": null,
+          "balance": 285511.97,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-01-08",
+          "description": "UPI/NAMMA METRO/89365286",
+          "debit": 430.3,
+          "credit": null,
+          "balance": 285081.67,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-01-08",
+          "description": "POS/BESCOM/AHMEDABAD/45811193",
+          "debit": 508.56,
+          "credit": null,
+          "balance": 284573.11,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-01-08",
+          "description": "NEFT CR-SNEHA REDDY-63063934",
+          "debit": null,
+          "credit": 18996.41,
+          "balance": 303569.52,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-01-11",
+          "description": "POS/MYNTRA/AHMEDABAD/85628093",
+          "debit": 3860.71,
+          "credit": null,
+          "balance": 299708.81,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-01-12",
+          "description": "CASHBACK CREDIT-75066399",
+          "debit": null,
+          "credit": 415.05,
+          "balance": 300123.86,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-01-15",
+          "description": "POS/ZEPTO/AHMEDABAD/98665071",
+          "debit": 315.44,
+          "credit": null,
+          "balance": 299808.42,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-01-16",
+          "description": "POS/DOMINO'S/MUMBAI/66443557",
+          "debit": 656.49,
+          "credit": null,
+          "balance": 299151.93,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-16",
+          "description": "POS/FLIPKART/MUMBAI/98166447",
+          "debit": 8544.27,
+          "credit": null,
+          "balance": 290607.66,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-01-18",
+          "description": "CASH WITHDRAWAL MUMBAI",
+          "debit": 8707.08,
+          "credit": null,
+          "balance": 281900.58,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-01-18",
+          "description": "POS/GOIBIBO/BENGALURU/07857315",
+          "debit": 10832.27,
+          "credit": null,
+          "balance": 271068.31,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-01-21",
+          "description": "CASH WITHDRAWAL PUNE",
+          "debit": 2563.46,
+          "credit": null,
+          "balance": 268504.85,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-01-23",
+          "description": "UPI/MCDONALD'S/50796716",
+          "debit": 1047.06,
+          "credit": null,
+          "balance": 267457.79,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-27",
+          "description": "UPI/DR/81911210/PRACTO/paytm",
+          "debit": 334.22,
+          "credit": null,
+          "balance": 267123.57,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2024-01-27",
+          "description": "UPI/INSTAMART/10156099",
+          "debit": 4114.87,
+          "credit": null,
+          "balance": 263008.7,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-01-28",
+          "description": "UPI/STARBUCKS/12327924",
+          "debit": 506.91,
+          "credit": null,
+          "balance": 262501.79,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-01-29",
+          "description": "UPI/LICIOUS/91751274",
+          "debit": 3853.35,
+          "credit": null,
+          "balance": 258648.44,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-01-30",
+          "description": "TRANSFER TO AMIT PATEL 92468953",
+          "debit": 9263.37,
+          "credit": null,
+          "balance": 249385.07,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-02-03",
+          "description": "SAL CR DELOITTE SEP 2025 25320222",
+          "debit": null,
+          "credit": 65817.58,
+          "balance": 315202.65,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-02-03",
+          "description": "UPI/NYKAA/84941133",
+          "debit": 2698.54,
+          "credit": null,
+          "balance": 312504.11,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-02-04",
+          "description": "POS/SUBWAY/PUNE/60087274",
+          "debit": 1020.4,
+          "credit": null,
+          "balance": 311483.71,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-05",
+          "description": "NEFT DR-KARAN MEHTA-RENT JUN 2025-28198720",
+          "debit": 28067.4,
+          "credit": null,
+          "balance": 283416.31,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2024-02-05",
+          "description": "UPI/DR/21141878/SHELL/axl",
+          "debit": 574.71,
+          "credit": null,
+          "balance": 282841.6,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-02-08",
+          "description": "UPI/DR/38268604/SWIGGY/axl",
+          "debit": 1414.23,
+          "credit": null,
+          "balance": 281427.37,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-09",
+          "description": "EMI TATA CAPITAL 68119346",
+          "debit": 26720.77,
+          "credit": null,
+          "balance": 254706.6,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2024-02-10",
+          "description": "POS/KFC/BENGALURU/81064290",
+          "debit": 331.83,
+          "credit": null,
+          "balance": 254374.77,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-11",
+          "description": "UPI/BIGBASKET/12651021",
+          "debit": 1534.82,
+          "credit": null,
+          "balance": 252839.95,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-02-12",
+          "description": "UPI/DR/41267201/NYKAA/axl",
+          "debit": 8913.52,
+          "credit": null,
+          "balance": 243926.43,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-02-12",
+          "description": "UPI/DR/81703408/ZOMATO/ybl",
+          "debit": 184.36,
+          "credit": null,
+          "balance": 243742.07,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2024-02-14",
+          "description": "CASH WITHDRAWAL AHMEDABAD",
+          "debit": 7625.68,
+          "credit": null,
+          "balance": 236116.39,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2024-02-15",
+          "description": "UPI/DR/61427937/MAHANAGAR GAS/axl",
+          "debit": 3429.5,
+          "credit": null,
+          "balance": 232686.89,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2024-02-20",
+          "description": "IMPS/P2A/34930536/POOJA IYER",
+          "debit": 13741.79,
+          "credit": null,
+          "balance": 218945.1,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-02-20",
+          "description": "UPI/HP PETROL PUMP/40242814",
+          "debit": 618.03,
+          "credit": null,
+          "balance": 218327.07,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-02-20",
+          "description": "UPI/DR/17492092/LICIOUS/paytm",
+          "debit": 4305.48,
+          "credit": null,
+          "balance": 214021.59,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-02-22",
+          "description": "REFUND-AJIO-15305653",
+          "debit": null,
+          "credit": 2326.22,
+          "balance": 216347.81,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2024-02-27",
+          "description": "UPI/DR/07019753/ANANYA DAS/okicici",
+          "debit": 9495.04,
+          "credit": null,
+          "balance": 206852.77,
+          "category": "Transfers"
+        },
+        {
+          "date": "2024-02-29",
+          "description": "NEFT CR-ISHITA RAO-30243076",
+          "debit": null,
+          "credit": 1566.51,
+          "balance": 208419.28,
+          "category": "Transfers"
+        }
+      ]
+    },
+    {
+      "file": "hdfc_text_010.pdf",
+      "bank": "HDFC Bank",
+      "profile": "hdfc",
+      "pdf_type": "text",
+      "account_holder": "Pooja Iyer",
+      "account_number": "50100620185210",
+      "ifsc": "HDFC0001234",
+      "period_start": "2025-07-01",
+      "period_end": "2025-08-31",
+      "opening_balance": 166695.95,
+      "closing_balance": 137110.45,
+      "transactions": [
+        {
+          "date": "2025-07-01",
+          "description": "SAL CR TCS APR 2025 12422188",
+          "debit": null,
+          "credit": 112804.68,
+          "balance": 279500.63,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "UPI-MORE SUPERMARKET-apl-17964854",
+          "debit": 3930.86,
+          "credit": null,
+          "balance": 275569.77,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-04",
+          "description": "UPI-DR-26329927-DOMINO'S-okicici",
+          "debit": 316.51,
+          "credit": null,
+          "balance": 275253.26,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-05",
+          "description": "POS/60428028/BIGBASKET/CHENNAI",
+          "debit": 2747.64,
+          "credit": null,
+          "balance": 272505.62,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-05",
+          "description": "POS/98417142/BARBEQUE NATION/KOCHI",
+          "debit": 1136.94,
+          "credit": null,
+          "balance": 271368.68,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "POS/50764414/MORE SUPERMARKET/BENGALURU",
+          "debit": 1893.43,
+          "credit": null,
+          "balance": 269475.25,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "UPI/VIKRAM SINGH/RENT/82004236",
+          "debit": 26769.26,
+          "credit": null,
+          "balance": 242705.99,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "UPI-DR-43358283-MEESHO-ybl",
+          "debit": 4540.72,
+          "credit": null,
+          "balance": 238165.27,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "UPI-DR-23819664-AMAZON-paytm",
+          "debit": 3937.29,
+          "credit": null,
+          "balance": 234227.98,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-09",
+          "description": "LOAN EMI/SBI HOME LOAN/02140353",
+          "debit": 13799.53,
+          "credit": null,
+          "balance": 220428.45,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-07-10",
+          "description": "POS/85992954/FORTIS HOSPITAL/BENGALURU",
+          "debit": 2679.79,
+          "credit": null,
+          "balance": 217748.66,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2025-07-10",
+          "description": "UPI-TATA POWER-apl-33636786",
+          "debit": 2745.42,
+          "credit": null,
+          "balance": 215003.24,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-07-11",
+          "description": "UPI-DR-45085942-TATA POWER-paytm",
+          "debit": 2986.27,
+          "credit": null,
+          "balance": 212016.97,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-07-12",
+          "description": "SMS ALERT FEE 07072268",
+          "debit": 292.17,
+          "credit": null,
+          "balance": 211724.8,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2025-07-13",
+          "description": "UPI/DR/04206398/POOJA IYER/okicici",
+          "debit": 16542.51,
+          "credit": null,
+          "balance": 195182.29,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-07-13",
+          "description": "TRANSFER TO PRIYA VERMA 77935617",
+          "debit": 15727.04,
+          "credit": null,
+          "balance": 179455.25,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-07-14",
+          "description": "POS/22273471/INOX/KOCHI",
+          "debit": 412.28,
+          "credit": null,
+          "balance": 179042.97,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-07-14",
+          "description": "POS/92966673/ZOMATO/DELHI",
+          "debit": 1089.41,
+          "credit": null,
+          "balance": 177953.56,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-16",
+          "description": "CASH WITHDRAWAL JAIPUR",
+          "debit": 4767.63,
+          "credit": null,
+          "balance": 173185.93,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-07-18",
+          "description": "UPI-DELHI METRO-paytm-61709996",
+          "debit": 814.62,
+          "credit": null,
+          "balance": 172371.31,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "UPI-THIRD WAVE COFFEE-apl-34559023",
+          "debit": 760.29,
+          "credit": null,
+          "balance": 171611.02,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-22",
+          "description": "POS/42833124/MYNTRA/HYDERABAD",
+          "debit": 11874.78,
+          "credit": null,
+          "balance": 159736.24,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-22",
+          "description": "UPI-PIZZA HUT-paytm-95708029",
+          "debit": 195.13,
+          "credit": null,
+          "balance": 159541.11,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "POS/97130773/INDIANOIL/DELHI",
+          "debit": 132.97,
+          "credit": null,
+          "balance": 159408.14,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "POS/15869625/DISNEY+ HOTSTAR/PUNE",
+          "debit": 1221.17,
+          "credit": null,
+          "balance": 158186.97,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "UPI-INDIANOIL-paytm-44670666",
+          "debit": 689.53,
+          "credit": null,
+          "balance": 157497.44,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-27",
+          "description": "POS/22987442/BLINKIT/AHMEDABAD",
+          "debit": 1799.94,
+          "credit": null,
+          "balance": 155697.5,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-27",
+          "description": "REVERSAL-DOMINO'S-02284536",
+          "debit": null,
+          "credit": 1843.07,
+          "balance": 157540.57,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-07-28",
+          "description": "UPI-DR-57196159-SUBWAY-paytm",
+          "debit": 515.16,
+          "credit": null,
+          "balance": 157025.41,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-01",
+          "description": "ATM CASH WDL JAIPUR 37213452",
+          "debit": 9866.96,
+          "credit": null,
+          "balance": 147158.45,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-08-02",
+          "description": "UPI-BLINKIT-apl-07834888",
+          "debit": 2952.53,
+          "credit": null,
+          "balance": 144205.92,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-08-02",
+          "description": "POS/87473409/BARBEQUE NATION/KOCHI",
+          "debit": 795.35,
+          "credit": null,
+          "balance": 143410.57,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-04",
+          "description": "NEFT CR-LTIMINDTREE-SALARY AUG 2025-97745074",
+          "debit": null,
+          "credit": 102277.62,
+          "balance": 245688.19,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-08-05",
+          "description": "POS/48587044/MYNTRA/DELHI",
+          "debit": 3299.64,
+          "credit": null,
+          "balance": 242388.55,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-08-05",
+          "description": "NEFT DR-AMIT PATEL-RENT JUL 2025-37589016",
+          "debit": 36946.36,
+          "credit": null,
+          "balance": 205442.19,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-08-06",
+          "description": "LOAN EMI/SBI HOME LOAN/18401978",
+          "debit": 23472.53,
+          "credit": null,
+          "balance": 181969.66,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-08-09",
+          "description": "ATM CASH WDL CHENNAI 42379917",
+          "debit": 5674.42,
+          "credit": null,
+          "balance": 176295.24,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-08-09",
+          "description": "UPI-TATA POWER-paytm-04135269",
+          "debit": 1713.36,
+          "credit": null,
+          "balance": 174581.88,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-08-10",
+          "description": "UPI-DR-22175737-INOX-okhdfcbank",
+          "debit": 288.02,
+          "credit": null,
+          "balance": 174293.86,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-08-15",
+          "description": "POS/18443723/ACT FIBERNET/BENGALURU",
+          "debit": 456.7,
+          "credit": null,
+          "balance": 173837.16,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-08-16",
+          "description": "POS/54765430/INOX/KOLKATA",
+          "debit": 341.89,
+          "credit": null,
+          "balance": 173495.27,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-08-20",
+          "description": "POS/31539950/SWIGGY/AHMEDABAD",
+          "debit": 167.61,
+          "credit": null,
+          "balance": 173327.66,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-21",
+          "description": "CASHBACK CREDIT-96448780",
+          "debit": null,
+          "credit": 364.65,
+          "balance": 173692.31,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-08-21",
+          "description": "POS/28673688/REBEL FOODS/JAIPUR",
+          "debit": 668.49,
+          "credit": null,
+          "balance": 173023.82,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-21",
+          "description": "POS/10664689/MCDONALD'S/MUMBAI",
+          "debit": 1352.78,
+          "credit": null,
+          "balance": 171671.04,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-22",
+          "description": "UPI-MCDONALD'S-axl-59772307",
+          "debit": 292.59,
+          "credit": null,
+          "balance": 171378.45,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-23",
+          "description": "TRANSFER TO NEHA GUPTA 21812624",
+          "debit": 11518.28,
+          "credit": null,
+          "balance": 159860.17,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-08-24",
+          "description": "UPI-DR-26587072-DELHI METRO-ybl",
+          "debit": 424.44,
+          "credit": null,
+          "balance": 159435.73,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-08-29",
+          "description": "NEFT DR-AMIT PATEL-68043619",
+          "debit": 6786.25,
+          "credit": null,
+          "balance": 152649.48,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-08-29",
+          "description": "UPI-HP PETROL PUMP-okicici-36398795",
+          "debit": 667.63,
+          "credit": null,
+          "balance": 151981.85,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-08-29",
+          "description": "UPI-HALDIRAM'S-ybl-13993784",
+          "debit": 1754.51,
+          "credit": null,
+          "balance": 150227.34,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-08-30",
+          "description": "POS/01053243/DMART/PUNE",
+          "debit": 3175.8,
+          "credit": null,
+          "balance": 147051.54,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-08-30",
+          "description": "UPI-BIGBASKET-apl-36908123",
+          "debit": 1954.17,
+          "credit": null,
+          "balance": 145097.37,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-08-31",
+          "description": "UPI-DR-13642913-FLIPKART-paytm",
+          "debit": 7986.92,
+          "credit": null,
+          "balance": 137110.45,
+          "category": "Shopping"
+        }
+      ]
+    },
+    {
+      "file": "icici_text_011.pdf",
+      "bank": "ICICI Bank",
+      "profile": "icici",
+      "pdf_type": "text",
+      "account_holder": "Rahul Sharma",
+      "account_number": "049473266843",
+      "ifsc": "ICIC0004567",
+      "period_start": "2025-06-01",
+      "period_end": "2025-07-31",
+      "opening_balance": 403250.52,
+      "closing_balance": 429688.52,
+      "transactions": [
+        {
+          "date": "2025-06-02",
+          "description": "BILLPAY BLUSMART 24760272",
+          "debit": 408.03,
+          "credit": null,
+          "balance": 402842.49,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-06-02",
+          "description": "ATM/CASH WDL/AHMEDABAD/26620896",
+          "debit": 2366.01,
+          "credit": null,
+          "balance": 400476.48,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-06-03",
+          "description": "PAYROLL CREDIT WIPRO SEP 2025",
+          "debit": null,
+          "credit": 108870.27,
+          "balance": 509346.75,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-06-04",
+          "description": "HOUSE RENT KARAN MEHTA JUN 2025",
+          "debit": 32215.64,
+          "credit": null,
+          "balance": 477131.11,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-06-04",
+          "description": "CASH WITHDRAWAL PUNE",
+          "debit": 1030.04,
+          "credit": null,
+          "balance": 476101.07,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-06-06",
+          "description": "DIVIDEND-COGNIZANT-69067351",
+          "debit": null,
+          "credit": 1249.06,
+          "balance": 477350.13,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "POS ZEPTO AHMEDABAD",
+          "debit": 2725.93,
+          "credit": null,
+          "balance": 474624.2,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "BAJAJ FINANCE HOME LOAN EMI 85769748",
+          "debit": 23009.98,
+          "credit": null,
+          "balance": 451614.22,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-06-09",
+          "description": "UPI/BESCOM/75773612",
+          "debit": 541.96,
+          "credit": null,
+          "balance": 451072.26,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-06-09",
+          "description": "PROCESSING FEE 65571223",
+          "debit": 231.86,
+          "credit": null,
+          "balance": 450840.4,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2025-06-11",
+          "description": "POS PIZZA HUT KOCHI",
+          "debit": 362.11,
+          "credit": null,
+          "balance": 450478.29,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-11",
+          "description": "UPI/DR/84436022/VIKRAM SINGH/apl",
+          "debit": 18558.6,
+          "credit": null,
+          "balance": 431919.69,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-06-14",
+          "description": "POS JIO HYDERABAD",
+          "debit": 1929.59,
+          "credit": null,
+          "balance": 429990.1,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-06-15",
+          "description": "UPI/AMAZON/92277991",
+          "debit": 5690.37,
+          "credit": null,
+          "balance": 424299.73,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-15",
+          "description": "UPI/SHELL/01524558",
+          "debit": 461.77,
+          "credit": null,
+          "balance": 423837.96,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-06-17",
+          "description": "POS BLINKIT AHMEDABAD",
+          "debit": 1680.29,
+          "credit": null,
+          "balance": 422157.67,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-19",
+          "description": "BILLPAY HALDIRAM'S 65177253",
+          "debit": 1572.35,
+          "credit": null,
+          "balance": 420585.32,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-20",
+          "description": "POS BYJU'S DELHI",
+          "debit": 18693.57,
+          "credit": null,
+          "balance": 401891.75,
+          "category": "Education"
+        },
+        {
+          "date": "2025-06-22",
+          "description": "IMPS/P2A/38970727/NEHA GUPTA",
+          "debit": 8379.58,
+          "credit": null,
+          "balance": 393512.17,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-06-23",
+          "description": "BILLPAY KFC 34749066",
+          "debit": 272.8,
+          "credit": null,
+          "balance": 393239.37,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-24",
+          "description": "BILLPAY TATA CLIQ 37411210",
+          "debit": 10617.86,
+          "credit": null,
+          "balance": 382621.51,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-27",
+          "description": "BILLPAY RELIANCE FRESH 93772323",
+          "debit": 3287.89,
+          "credit": null,
+          "balance": 379333.62,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-27",
+          "description": "UPI/CR/35998352/ROHAN JOSHI/ybl",
+          "debit": null,
+          "credit": 18303.15,
+          "balance": 397636.77,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-06-28",
+          "description": "BILLPAY MYNTRA 77424876",
+          "debit": 7476.37,
+          "credit": null,
+          "balance": 390160.4,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-30",
+          "description": "POS SUBWAY BENGALURU",
+          "debit": 1516.57,
+          "credit": null,
+          "balance": 388643.83,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-03",
+          "description": "SALARY CREDIT-DELOITTE-JUL 2025",
+          "debit": null,
+          "credit": 135837.1,
+          "balance": 524480.93,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-07-04",
+          "description": "UPI/ZOMATO/34323801",
+          "debit": 882.52,
+          "credit": null,
+          "balance": 523598.41,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-04",
+          "description": "BILLPAY OLA 59034913",
+          "debit": 362.28,
+          "credit": null,
+          "balance": 523236.13,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "RENT PAYMENT-ISHITA RAO-08105140",
+          "debit": 28831.35,
+          "credit": null,
+          "balance": 494404.78,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "POS TATA CLIQ MUMBAI",
+          "debit": 2506.73,
+          "credit": null,
+          "balance": 491898.05,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "POS NYKAA HYDERABAD",
+          "debit": 573.29,
+          "credit": null,
+          "balance": 491324.76,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-09",
+          "description": "EMI ICICI BANK 12192004",
+          "debit": 24115.06,
+          "credit": null,
+          "balance": 467209.7,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-07-12",
+          "description": "UPI/DOMINO'S/33178776",
+          "debit": 590.1,
+          "credit": null,
+          "balance": 466619.6,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-14",
+          "description": "POS BOOKMYSHOW KOCHI",
+          "debit": 1322.86,
+          "credit": null,
+          "balance": 465296.74,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-07-15",
+          "description": "POS TATA POWER KOLKATA",
+          "debit": 2780.45,
+          "credit": null,
+          "balance": 462516.29,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-07-16",
+          "description": "UPI/MANIPAL HOSPITAL/71757550",
+          "debit": 1021.91,
+          "credit": null,
+          "balance": 461494.38,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2025-07-18",
+          "description": "POS HP PETROL PUMP DELHI",
+          "debit": 841.75,
+          "credit": null,
+          "balance": 460652.63,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-18",
+          "description": "BILLPAY LICIOUS 04187892",
+          "debit": 2794.74,
+          "credit": null,
+          "balance": 457857.89,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "POS KFC DELHI",
+          "debit": 1708.16,
+          "credit": null,
+          "balance": 456149.73,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "GST ON CHARGES 38145867",
+          "debit": 199.66,
+          "credit": null,
+          "balance": 455950.07,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "POS BURGER KING KOLKATA",
+          "debit": 1307.64,
+          "credit": null,
+          "balance": 454642.43,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "CASH WITHDRAWAL AHMEDABAD",
+          "debit": 8028.3,
+          "credit": null,
+          "balance": 446614.13,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "UPI/DMART/85598676",
+          "debit": 467.43,
+          "credit": null,
+          "balance": 446146.7,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-30",
+          "description": "IMPS/P2A/39273667/SNEHA REDDY",
+          "debit": 16458.18,
+          "credit": null,
+          "balance": 429688.52,
+          "category": "Transfers"
+        }
+      ]
+    },
+    {
+      "file": "sbi_text_012.pdf",
+      "bank": "State Bank of India",
+      "profile": "sbi",
+      "pdf_type": "text",
+      "account_holder": "Sneha Reddy",
+      "account_number": "33390466728",
+      "ifsc": "SBIN0007890",
+      "period_start": "2025-06-01",
+      "period_end": "2025-07-31",
+      "opening_balance": 251100.37,
+      "closing_balance": 272588.57,
+      "transactions": [
+        {
+          "date": "2025-06-03",
+          "description": "UPI/HP PETROL PUMP/79924563",
+          "debit": 562.1,
+          "credit": null,
+          "balance": 250538.27,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-06-03",
+          "description": "CASH WITHDRAWAL MUMBAI",
+          "debit": 1639.12,
+          "credit": null,
+          "balance": 248899.15,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-06-04",
+          "description": "BY SALARY/TCS/JUN 2025/13142022",
+          "debit": null,
+          "credit": 75388.21,
+          "balance": 324287.36,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-06-05",
+          "description": "MINIMUM BALANCE CHARGE 03385301",
+          "debit": 50.95,
+          "credit": null,
+          "balance": 324236.41,
+          "category": "Fees & Charges"
+        },
+        {
+          "date": "2025-06-06",
+          "description": "POS/NYKAA/DELHI/58469871",
+          "debit": 10213.29,
+          "credit": null,
+          "balance": 314023.12,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-06",
+          "description": "HOUSE RENT SNEHA REDDY AUG 2025",
+          "debit": 23821.34,
+          "credit": null,
+          "balance": 290201.78,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "ICICI BANK HOME LOAN EMI 63555352",
+          "debit": 24498.81,
+          "credit": null,
+          "balance": 265702.97,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "UPI/REBEL FOODS/39776509",
+          "debit": 948.77,
+          "credit": null,
+          "balance": 264754.2,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "UPI/INDIANOIL/75136909",
+          "debit": 104.05,
+          "credit": null,
+          "balance": 264650.15,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-06-10",
+          "description": "UPI/DR/69313294/ZEPTO/apl",
+          "debit": 319.9,
+          "credit": null,
+          "balance": 264330.25,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-10",
+          "description": "POS/BURGER KING/CHENNAI/40838172",
+          "debit": 1228.0,
+          "credit": null,
+          "balance": 263102.25,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-12",
+          "description": "TRANSFER TO PRIYA VERMA 39269352",
+          "debit": 1796.76,
+          "credit": null,
+          "balance": 261305.49,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-06-13",
+          "description": "UPI/SNAPDEAL/03060437",
+          "debit": 1668.39,
+          "credit": null,
+          "balance": 259637.1,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-13",
+          "description": "UPI/ADANI ELECTRICITY/32631201",
+          "debit": 3336.37,
+          "credit": null,
+          "balance": 256300.73,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-06-18",
+          "description": "UPI/DR/45619311/RAHUL SHARMA/paytm",
+          "debit": 1605.91,
+          "credit": null,
+          "balance": 254694.82,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-06-18",
+          "description": "UPI/DR/96264766/COUNTRY DELIGHT/paytm",
+          "debit": 3025.22,
+          "credit": null,
+          "balance": 251669.6,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-18",
+          "description": "POS/AJIO/BENGALURU/42048891",
+          "debit": 2259.67,
+          "credit": null,
+          "balance": 249409.93,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-06-19",
+          "description": "POS/STARBUCKS/HYDERABAD/21186695",
+          "debit": 1024.4,
+          "credit": null,
+          "balance": 248385.53,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-20",
+          "description": "DIVIDEND-DELOITTE-38694902",
+          "debit": null,
+          "credit": 728.99,
+          "balance": 249114.52,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-06-21",
+          "description": "POS/MORE SUPERMARKET/KOCHI/96786700",
+          "debit": 2344.08,
+          "credit": null,
+          "balance": 246770.44,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-23",
+          "description": "UPI/DR/47215914/INSTAMART/paytm",
+          "debit": 4098.96,
+          "credit": null,
+          "balance": 242671.48,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-06-23",
+          "description": "UPI/DR/71331068/BLUSMART/apl",
+          "debit": 823.72,
+          "credit": null,
+          "balance": 241847.76,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-06-30",
+          "description": "POS/STARBUCKS/KOCHI/33197693",
+          "debit": 442.44,
+          "credit": null,
+          "balance": 241405.32,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-06-30",
+          "description": "IMPS/P2A/31672932/ROHAN JOSHI",
+          "debit": null,
+          "credit": 18360.54,
+          "balance": 259765.86,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "POS/INDIANOIL/BENGALURU/62335947",
+          "debit": 379.21,
+          "credit": null,
+          "balance": 259386.65,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "NEFT CR-TCS-SALARY FEB 2025-01721052",
+          "debit": null,
+          "credit": 103159.35,
+          "balance": 362546.0,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "UPI/SWIGGY/71171700",
+          "debit": 1191.15,
+          "credit": null,
+          "balance": 361354.85,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-05",
+          "description": "UPI/RAPIDO/47584509",
+          "debit": 568.58,
+          "credit": null,
+          "balance": 360786.27,
+          "category": "Transport"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "UPI/DR/24622320/VIKRAM SINGH/okhdfcbank",
+          "debit": 12888.29,
+          "credit": null,
+          "balance": 347897.98,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "RENT PAYMENT-POOJA IYER-37966957",
+          "debit": 23594.23,
+          "credit": null,
+          "balance": 324303.75,
+          "category": "Rent & Housing"
+        },
+        {
+          "date": "2025-07-07",
+          "description": "ICICI BANK HOME LOAN EMI 48379484",
+          "debit": 5982.09,
+          "credit": null,
+          "balance": 318321.66,
+          "category": "EMI & Loans"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "POS/MCDONALD'S/DELHI/19204214",
+          "debit": 1455.77,
+          "credit": null,
+          "balance": 316865.89,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "CASH WITHDRAWAL MUMBAI",
+          "debit": 9652.95,
+          "credit": null,
+          "balance": 307212.94,
+          "category": "Cash & ATM"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "POS/BURGER KING/DELHI/39044232",
+          "debit": 1481.76,
+          "credit": null,
+          "balance": 305731.18,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "UPI/DR/68258383/INSTAMART/okicici",
+          "debit": 1261.49,
+          "credit": null,
+          "balance": 304469.69,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "POS/ADANI ELECTRICITY/DELHI/37420365",
+          "debit": 2740.82,
+          "credit": null,
+          "balance": 301728.87,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-07-11",
+          "description": "UPI/AIRTEL/55237822",
+          "debit": 2627.13,
+          "credit": null,
+          "balance": 299101.74,
+          "category": "Utilities & Bills"
+        },
+        {
+          "date": "2025-07-12",
+          "description": "UPI/NETFLIX/12274119",
+          "debit": 748.59,
+          "credit": null,
+          "balance": 298353.15,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-07-16",
+          "description": "UPI/DR/63705774/DOMINO'S/okhdfcbank",
+          "debit": 1161.59,
+          "credit": null,
+          "balance": 297191.56,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "UPI/DR/04765021/PRACTO/okhdfcbank",
+          "debit": 3056.24,
+          "credit": null,
+          "balance": 294135.32,
+          "category": "Healthcare"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "UPI/DR/53760746/GAANA/ybl",
+          "debit": 355.05,
+          "credit": null,
+          "balance": 293780.27,
+          "category": "Entertainment & Subscriptions"
+        },
+        {
+          "date": "2025-07-21",
+          "description": "POS/SNAPDEAL/KOLKATA/25972551",
+          "debit": 10016.83,
+          "credit": null,
+          "balance": 283763.44,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "POS/REBEL FOODS/HYDERABAD/10878257",
+          "debit": 1420.53,
+          "credit": null,
+          "balance": 282342.91,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "REVERSAL-REBEL FOODS-29339614",
+          "debit": null,
+          "credit": 2505.8,
+          "balance": 284848.71,
+          "category": "Salary & Income"
+        },
+        {
+          "date": "2025-07-26",
+          "description": "POS/TATA CLIQ/CHENNAI/93351021",
+          "debit": 530.06,
+          "credit": null,
+          "balance": 284318.65,
+          "category": "Shopping"
+        },
+        {
+          "date": "2025-07-27",
+          "description": "UPI/HALDIRAM'S/16978911",
+          "debit": 1470.92,
+          "credit": null,
+          "balance": 282847.73,
+          "category": "Food & Dining"
+        },
+        {
+          "date": "2025-07-28",
+          "description": "NEFT DR-ISHITA RAO-44108698",
+          "debit": 1083.01,
+          "credit": null,
+          "balance": 281764.72,
+          "category": "Transfers"
+        },
+        {
+          "date": "2025-07-29",
+          "description": "POS/GROFERS/KOLKATA/57777203",
+          "debit": 3968.79,
+          "credit": null,
+          "balance": 277795.93,
+          "category": "Groceries"
+        },
+        {
+          "date": "2025-07-31",
+          "description": "ATM CASH WDL PUNE 71686490",
+          "debit": 5207.36,
+          "credit": null,
+          "balance": 272588.57,
+          "category": "Cash & ATM"
+        }
+      ]
+    }
+  ]
+}

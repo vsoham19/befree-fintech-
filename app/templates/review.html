@@ -1,0 +1,777 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed-dim":"#bec6e0","inverse-primary":"#68dba9","tertiary-fixed-dim":"#b4c5ff","on-surface":"#0b1c30","outline":"#6d7a72","surface-container-high":"#dce9ff","on-primary":"#ffffff","surface-container-lowest":"#ffffff","surface-bright":"#f8f9ff","primary-fixed-dim":"#68dba9","outline-variant":"#bccac0","on-primary-fixed-variant":"#005137","on-tertiary":"#ffffff","on-error-container":"#93000a","surface-variant":"#d3e4fe","on-secondary-fixed-variant":"#3f465c","on-secondary-container":"#5c647a","on-tertiary-fixed":"#00174b","on-error":"#ffffff","inverse-surface":"#213145","on-surface-variant":"#3d4a42","on-tertiary-fixed-variant":"#003ea8","primary-fixed":"#85f8c4","surface-container-low":"#eff4ff","surface":"#f8f9ff","on-secondary-fixed":"#131b2e","surface-container":"#e5eeff","on-background":"#0b1c30","on-primary-fixed":"#002114","primary":"#006948","on-tertiary-container":"#fefcff","error":"#ba1a1a","tertiary-container":"#316bf3","inverse-on-surface":"#eaf1ff","tertiary-fixed":"#dbe1ff","surface-dim":"#cbdbf5","on-secondary":"#ffffff","tertiary":"#0051d5","primary-container":"#00855d","secondary-container":"#dae2fd","surface-container-highest":"#d3e4fe","on-primary-container":"#f5fff7","background":"#f8f9ff","error-container":"#ffdad6","secondary":"#565e74","surface-tint":"#006c4a","secondary-fixed":"#dae2fd"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-lg":"1.5rem","margin-lg":"2rem","space-md":"0.75rem","margin":"1.5rem","space-xl":"1.5rem","space-sm":"0.5rem","space-lg":"1rem","gutter":"1rem","space-xs":"0.25rem"},fontFamily:{"body-md":["Inter"],"headline-md":["Inter"],"label-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"financial-numeric":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"financial-numeric-lg":["Inter"],"label-sm":["Inter"],"display":["Inter"]},fontSize:{"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"financial-numeric":["14px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"financial-numeric-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"display":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}};</script><title>StatementIQ · Statement Review</title><link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}"/></head><body class="bg-surface font-body-md text-on-surface antialiased" data-page="review" data-statement-id="{{ statement_id }}" data-nav="{{ active_nav|default('transactions') }}"><aside class="fixed left-0 top-0 h-full w-64 bg-inverse-surface z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><div class="h-8 w-8 rounded bg-surface-container-lowest flex items-center justify-center"><span class="material-symbols-outlined text-primary text-headline-sm">flutter</span></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="text-inverse-on-surface font-headline-sm text-headline-sm tracking-tight">StatementIQ</span></div><span class="text-inverse-primary font-label-sm text-label-sm uppercase tracking-wider">Fintech Ops v2.4</span></div></div><div class="mt-space-sm px-space-sm py-space-xs rounded bg-inverse-surface/80 flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs"><span class="h-2 w-2 rounded-full bg-primary-fixed"></span><span class="text-inverse-on-surface font-label-sm text-label-sm">Rule Engine: Online</span></div><span class="text-inverse-primary font-label-sm text-label-sm">v4.2</span></div></div><nav class="flex flex-col gap-space-xs px-space-sm mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-headline-sm">grid_view</span><span class="font-body-sm text-body-sm">Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg transition-colors bg-primary-container text-on-primary-container font-headline-sm" data-path="statements" href="#"><span class="material-symbols-outlined text-headline-sm">description</span><span class="font-body-sm text-body-sm">Statements</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="transactions" href="#"><span class="material-symbols-outlined text-headline-sm">receipt_long</span><span class="font-body-sm text-body-sm">Transactions</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="categories" href="#"><span class="material-symbols-outlined text-headline-sm">account_tree</span><span class="font-body-sm text-body-sm">Categories</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-surface-container-highest hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-headline-sm">tune</span><span class="font-body-sm text-body-sm">Settings</span></a></nav></div><div class="p-space-md flex flex-col gap-space-md"><button class="w-full flex items-center justify-between px-space-md py-space-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary transition-colors shadow-[0_1px_8px_rgba(0,0,0,0.04)]" type="button"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-headline-sm">upload_file</span><span class="font-headline-sm text-headline-sm">Upload Statement</span></div><span class="px-space-xs py-0.5 rounded bg-on-primary-fixed-variant text-primary-fixed font-label-sm text-label-sm">⌘U</span></button><div class="flex items-center justify-between p-space-sm rounded-lg bg-inverse-surface shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-sm overflow-hidden"><div class="h-8 w-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-headline-sm text-headline-sm shrink-0">PS</div><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-inverse-on-surface truncate">Priya Sharma</span><span class="font-label-sm text-label-sm text-inverse-primary truncate">Senior Ops Analyst</span></div></div><button class="p-space-xs text-inverse-on-surface hover:text-on-primary transition-colors shrink-0" type="button"><span class="material-symbols-outlined text-headline-sm">unfold_more</span></button></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm shrink-0"><span class="text-on-surface font-headline-sm text-headline-sm">StatementIQ</span><span class="material-symbols-outlined text-label-sm">chevron_right</span><span class="text-on-surface-variant">Reconciliation Operations</span></div></div></header><main class="relative pt-16 bg-surface"><div class="max-w-[1440px] mx-auto p-space-lg"><div class="flex flex-col w-full gap-space-lg">
+<!-- TOP CONTEXT & COMMAND BAR -->
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex flex-wrap items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs text-on-surface font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-primary text-headline-sm">picture_as_pdf</span>
+<span class="tracking-tight" id="review-filename">Loading statement…</span>
+</div>
+<span class="text-outline">/</span>
+<div class="flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+<span class="" id="review-parsed-count">Parsed · 0 Transactions</span>
+</div>
+</div>
+<select class="h-7 max-w-[290px] pl-2 pr-7 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm border border-slate-200 focus:outline-none hidden" id="statement-switcher"></select>
+<!-- Global Actions -->
+<div class="flex items-center gap-space-sm flex-wrap shrink-0">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-headline-sm text-body-sm transition-colors shadow-sm" id="btn-reprocess" type="button">
+<span class="material-symbols-outlined text-headline-sm text-on-surface-variant">sync</span>
+<span class="">Reprocess</span>
+</button>
+<div class="flex items-center rounded-lg bg-surface-container-low p-0.5 shadow-sm">
+<button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest font-headline-sm text-body-sm transition-colors" id="btn-export-csv" type="button">
+<span class="material-symbols-outlined text-body-sm">table_view</span>
+<span class="">CSV</span>
+</button>
+<span class="text-outline-variant px-0.5 text-label-sm">|</span>
+<button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest font-headline-sm text-body-sm transition-colors" id="btn-export-xlsx" type="button">
+<span class="material-symbols-outlined text-body-sm">grid_on</span>
+<span class="">Excel (.xlsx)</span>
+</button>
+</div>
+<button class="flex items-center gap-space-xs px-space-lg py-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-body-sm transition-colors shadow-sm focus:outline-none" id="btn-complete-review" type="button">
+<span class="material-symbols-outlined text-headline-sm">check_circle</span>
+<span class="">Complete Review &amp; Finalize</span>
+</button>
+</div>
+</div>
+<!-- RECONCILIATION SUMMARY & ACCOUNT METADATA CARD -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col xl:flex-row gap-space-lg items-stretch justify-between">
+<!-- Bank & Account Hierarchy -->
+<div class="flex flex-col justify-between gap-space-md xl:w-1/4">
+<div class="flex items-start gap-space-md">
+<div class="h-12 w-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary font-headline-lg shrink-0">
+<span class="material-symbols-outlined text-display">account_balance</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight" id="review-bank">Bank</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm">Current A/C</span>
+</div>
+<span class="font-headline-md text-headline-sm text-on-surface truncate" id="review-holder">—</span>
+<span class="font-financial-numeric text-body-sm text-on-surface-variant font-mono" id="review-account">A/C: —</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm bg-surface-container-low/60 p-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">IFSC</span>
+<span class="font-financial-numeric text-body-sm text-on-surface font-mono" id="review-ifsc">—</span>
+</div>
+</div>
+</div>
+<!-- Extraction Mode & Audit Period -->
+<div class="flex flex-col justify-between gap-space-md xl:w-1/4">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-body-sm">calendar_month</span>
+<span class="">Statement Cycle</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface" id="review-period">—</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm" id="review-duration">—</span>
+</div>
+</div>
+<!-- Balance Match & Reconciliation Ledger -->
+<div class="flex flex-col justify-between gap-space-md xl:w-1/2 bg-surface-container-low/50 p-space-md rounded-xl">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Opening Bal</span>
+<span class="font-financial-numeric-lg text-financial-numeric text-on-surface font-semibold mt-0.5" id="review-opening">—</span>
+<span class="font-label-sm text-label-sm text-outline" id="review-opening-sub">Opening balance</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-error uppercase tracking-wider">Total Debits</span>
+<span class="font-financial-numeric-lg text-financial-numeric text-error font-semibold mt-0.5" id="review-debits">—</span>
+<span class="font-label-sm text-label-sm text-outline" id="review-debits-sub">0 Transactions</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Total Credits</span>
+<span class="font-financial-numeric-lg text-financial-numeric text-primary font-semibold mt-0.5" id="review-credits">—</span>
+<span class="font-label-sm text-label-sm text-outline" id="review-credits-sub">0 Transactions</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Closing Bal</span>
+<span class="font-financial-numeric-lg text-financial-numeric text-on-surface font-semibold mt-0.5" id="review-closing">—</span>
+<span class="font-label-sm text-label-sm text-outline" id="review-closing-sub">Closing balance</span>
+</div>
+</div>
+</div>
+</div>
+<!-- NOTICE BANNER: FLAGGED TRANSACTIONS -->
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md p-space-md rounded-xl bg-error-container/30 text-on-surface shadow-sm" id="review-banner">
+<div class="flex items-center gap-space-md">
+<div class="h-9 w-9 rounded-lg bg-error-container text-on-error-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-headline-sm">warning</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-sm font-semibold" id="review-banner-text">0 low-confidence transactions require human verification</span>
+</div>
+</div>
+</div>
+<!-- INTERACTIVE OPERATIONS TOOLBAR -->
+<div class="flex flex-col gap-space-sm bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Search Input -->
+<div class="relative flex-1 max-w-md">
+<span class="material-symbols-outlined absolute left-space-md top-2.5 text-outline text-headline-sm pointer-events-none">search</span>
+<input class="w-full pl-10 pr-16 py-space-xs rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" id="review-search" placeholder="Search narration, UTR, cheque #, or beneficiary..." type="text">
+<div class="absolute right-space-sm top-2 flex items-center">
+<kbd class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">/</kbd>
+</div>
+</div>
+<!-- Segmented Status Tabs -->
+<div class="flex items-center gap-1 p-1 bg-surface-container-low rounded-lg shrink-0 overflow-x-auto">
+<button class="px-space-md py-1 rounded-lg bg-surface-container-lowest text-on-surface font-headline-sm text-body-sm shadow-sm" data-review-filter="all" type="button" id="review-tab-all">
+          All (0)
+        </button>
+<button class="flex items-center gap-space-xs px-space-md py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-headline-sm text-body-sm transition-colors" data-review-filter="flagged" type="button" id="review-tab-flagged">
+<span class="h-2 w-2 rounded-full bg-error"></span>
+<span class="">Flagged / Review (0)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-headline-sm text-body-sm transition-colors" data-review-filter="auto" type="button" id="review-tab-auto">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Auto-classified (0)</span>
+</button>
+</div>
+<!-- Right Bulk Actions & Controls -->
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low text-outline cursor-not-allowed font-headline-sm text-body-sm" id="btn-bulk-categorize" disabled="" type="button">
+<span class="material-symbols-outlined text-body-sm">label</span>
+<span class="">Bulk Categorize (<span id="bulk-selected-count">0</span>)</span>
+</button>
+</div>
+</div>
+<!-- Secondary Filter Pills Row -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs text-on-surface font-label-sm text-label-sm">
+<span class="text-outline uppercase tracking-wider">Filters:</span>
+<!-- Category Filter Dropdown -->
+<div class="relative">
+<button class="flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" id="btn-category-filter" type="button">
+<span class="" id="category-filter-label">Category: All</span>
+<span class="material-symbols-outlined text-label-sm">expand_more</span>
+</button>
+</div>
+<!-- Type Filter -->
+<div class="flex items-center rounded bg-surface-container p-0.5">
+<button class="px-space-sm py-0.5 rounded bg-surface-container-lowest text-on-surface font-semibold shadow-sm" data-type-filter="all" type="button">All Types</button>
+<button class="px-space-sm py-0.5 text-on-surface-variant hover:text-on-surface" data-type-filter="debit" type="button">Debits Only</button>
+<button class="px-space-sm py-0.5 text-on-surface-variant hover:text-on-surface" data-type-filter="credit" type="button">Credits Only</button>
+</div>
+</div>
+</div>
+<!-- PRODUCTION-GRADE LEDGER DATA TABLE -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm border-collapse">
+<!-- Sticky Table Header -->
+<thead class="bg-surface-container-low text-outline font-label-sm text-label-sm uppercase tracking-wider sticky top-0 z-20 select-none">
+<tr>
+<th class="py-space-sm px-space-md w-10 text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</th>
+<th class="py-space-sm px-space-md w-28 font-semibold">Date</th>
+<th class="py-space-sm px-space-md min-w-[280px] font-semibold">Transaction Narration / UTR Reference</th>
+<th class="py-space-sm px-space-md w-32 font-semibold text-right">Debit (₹)</th>
+<th class="py-space-sm px-space-md w-32 font-semibold text-right">Credit (₹)</th>
+<th class="py-space-sm px-space-md w-32 font-semibold text-right">Balance (₹)</th>
+<th class="py-space-sm px-space-md min-w-[200px] font-semibold">Classification Category</th>
+<th class="py-space-sm px-space-md w-32 font-semibold">Confidence</th>
+<th class="py-space-sm px-space-md w-24 text-right font-semibold">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low" id="review-tbody">
+<!-- ROW 1: FLAGGED (Needs Review - Amber Theme) -->
+<tr class="bg-error-container/10 hover:bg-error-container/20 transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              24 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">13:42:19 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface font-semibold">UPI/429812984122/SWIGGY BLR/HDFC0000/FOOD ORDER EXPENSE</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">tag</span>
+<span class="">UPI Ref: 429812984122</span>
+<span class="text-outline-variant">·</span>
+<span class="text-primary font-mono">swiggy@icici</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">UPI</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹1,450.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹8,92,100.20
+            </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="relative flex-1">
+<select class="w-full py-1 pl-space-sm pr-6 rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm shadow-sm focus:outline-none cursor-pointer">
+<option selected="">Meals &amp; Entertainment</option>
+<option>Staff Welfare</option>
+<option>Office Pantry</option>
+<option>Travel &amp; Conveyance</option>
+<option>Personal Expense (Director DLA)</option>
+</select>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm shrink-0 font-medium">Verify</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-error"></span>
+<span class="font-semibold text-error">62% · Review Needed</span>
+</div>
+<span class="text-outline font-label-sm text-label-sm truncate">ML: NaiveBayes v2.1</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-primary text-on-primary hover:bg-primary-container font-label-sm text-label-sm font-semibold transition-colors shadow-sm" title="Confirm classification (Space)" type="button">
+                  Approve
+                </button>
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- ROW 2: AUTO AWS (High Confidence) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              23 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">09:15:00 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">NEFT/N1024098124/AMAZON AWS CLOUD SVCS/IN910248</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">cloud</span>
+<span class="">Vendor: Amazon Web Services India</span>
+<span class="text-outline-variant">·</span>
+<span class="font-mono">PAN: AAACA1209B</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">NEFT</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹48,290.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹8,93,550.20
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Cloud &amp; Infrastructure</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">99% · Auto Match</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-104 (Vendor AWS)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+<!-- ROW 3: AUTO CLIENT REVENUE (Credit) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              20 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">16:04:12 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">RTGS/HDFCR52024102000019/CLIENT RETAINER TECH CORP</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">payments</span>
+<span class="">UTR: HDFCR52024102000019</span>
+<span class="text-outline-variant">·</span>
+<span class="text-primary">Inbound Client Fee</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">RTGS</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-primary font-bold tabular-nums">
+              +₹5,50,000.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹9,41,840.20
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Client Revenue / Retainer</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">98% · Auto Match</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-012 (TechCorp Retainer)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+<!-- ROW 4: FLAGGED (Uncategorized POS) -->
+<tr class="bg-error-container/10 hover:bg-error-container/20 transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              18 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">18:22:45 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface font-semibold">POS 412981000912 CAFE COFFEE DAY KORAMANGALA</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">credit_card</span>
+<span class="">Corp Debit Card #4129 · Terminal 000912</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">POS</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹680.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹3,91,840.20
+            </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<select class="w-full py-1 pl-space-sm pr-6 rounded-lg bg-surface-container-lowest text-error font-body-sm text-body-sm shadow-sm focus:outline-none cursor-pointer">
+<option selected="">⚠️ Uncategorized</option>
+<option>Office Pantry</option>
+<option>Client Meeting Expense</option>
+<option>Staff Welfare</option>
+</select>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-error"></span>
+<span class="font-semibold text-error">48% · Low Confidence</span>
+</div>
+<span class="text-outline font-label-sm text-label-sm truncate">No deterministic rule match</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm font-semibold transition-colors shadow-sm" type="button">
+                  Assign
+                </button>
+</div>
+</td>
+</tr>
+<!-- ROW 5: PAYROLL DISBURSEMENT -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              01 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">08:00:00 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">SALARY BATCH HDFC-SAL-OCT24 EMP-42 BENEFICIARIES</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">group</span>
+<span class="">Batch Ref: HDFC-SAL-OCT24 (42 Staff)</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">CMS</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹8,20,000.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹3,92,520.20
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Payroll &amp; Salaries</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">100% · Auto Regex</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-001 (Regex SALARY BATCH)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+<!-- ROW 6: BANK CHARGES -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              05 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">23:59:59 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">CHG/GST ON CORP INTERNET BANKING AMC Q2</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">receipt</span>
+<span class="">Bank Charge Invoice: HDFC-INV-Q2-0941</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">CHG</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹2,360.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹12,10,160.20
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Bank Fees &amp; Charges</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">96% · Auto Match</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-089 (Bank AMC Fee)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+<!-- ROW 7: TAX PAYMENT (GST) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              20 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">11:18:32 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">NEFT/GOVT TAX DEPT GST PMT OCT24 CBIC GSTN29</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">account_balance_wallet</span>
+<span class="">GSTIN: 29AABCS1429B1Z8 · Challan: 241029104</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">NEFT</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-error font-semibold tabular-nums">
+              ₹1,12,400.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹9,44,200.20
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Tax &amp; Statutory Dues</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">99% · Auto Match</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-045 (Tax/GST Challan)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+<!-- ROW 8: INTEREST INCOME -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md text-center">
+<input class="rounded text-primary focus:ring-0 cursor-pointer" type="checkbox">
+</td>
+<td class="py-space-sm px-space-md whitespace-nowrap font-financial-numeric text-on-surface">
+              30 Oct 2024
+              <div class="text-outline font-label-sm text-label-sm">23:59:00 IST</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-financial-numeric text-on-surface">INT CR CORP SWEEP FD AC 901248102941</span>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-0.5">
+<span class="material-symbols-outlined text-label-sm">savings</span>
+<span class="">Sweep Account FD Auto-Credit</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-center">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-mono">SYS</span>
+</td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-outline tabular-nums">
+              -
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-primary font-bold tabular-nums">
+              +₹14,210.00
+            </td>
+<td class="py-space-sm px-space-md text-right font-financial-numeric text-on-surface tabular-nums">
+              ₹9,49,480.35
+            </td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="">Interest Income</span>
+</span>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="h-2 w-2 rounded-full bg-primary"></span>
+<span class="font-semibold text-primary">97% · Auto Match</span>
+</div>
+<span class="text-tertiary font-label-sm text-label-sm truncate">Rule #R-019 (Interest Sweep)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-body-sm">edit</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- AUDIT FOOTER BAR (RUNNING TOTALS & PAGINATION) -->
+<div class="bg-surface-container-low p-space-md flex flex-col xl:flex-row items-center justify-between gap-space-md">
+<!-- Range Info -->
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="" id="review-range">Showing <strong class="text-on-surface">0</strong> of <strong class="text-on-surface">0</strong> transactions</span>
+<span class="text-outline">·</span>
+<div class="flex items-center gap-space-xs">
+<span class="">Per page:</span>
+<select class="bg-surface-container-lowest text-on-surface rounded px-space-xs py-0.5 font-label-sm text-label-sm focus:outline-none" id="review-per-page">
+<option selected="">50</option>
+<option>100</option>
+<option>25</option>
+</select>
+</div>
+</div>
+<!-- Pagination Navigation -->
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm" id="review-pagination">
+<button class="px-space-sm py-1 rounded bg-surface-container-lowest text-outline cursor-not-allowed" disabled="" type="button">Previous</button>
+<button class="w-8 h-8 rounded bg-primary text-on-primary font-semibold flex items-center justify-center shadow-sm" type="button">1</button>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center transition-colors" type="button">2</button>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center transition-colors" type="button">3</button>
+<span class="px-1 text-outline">...</span>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center transition-colors" type="button">16</button>
+<button class="px-space-sm py-1 rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-colors shadow-sm" type="button">Next</button>
+</div>
+</div>
+</div>
+<!-- DRAWER / MODAL: CATEGORY RULES CONFIGURATION PANEL (Slide-over component) -->
+<div class="fixed inset-0 z-50 flex justify-end bg-inverse-surface/40 backdrop-blur-[2px] opacity-0 pointer-events-none transition-opacity duration-200" id="rulesDrawer">
+<div class="w-full max-w-lg bg-surface-container-lowest h-full shadow-xl flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out" id="rulesDrawerContent">
+<!-- Drawer Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-headline-sm">tune</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Classification Rule Engine</span>
+</div>
+<span class="font-body-sm text-label-sm text-on-surface-variant">Active rules applied to HDFC Current Account patterns</span>
+</div>
+<button class="p-space-xs rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" id="closeDrawerBtn" type="button">
+<span class="material-symbols-outlined text-headline-md">close</span>
+</button>
+</div>
+<!-- Drawer Body: Rule Stack -->
+<div class="flex-1 overflow-y-auto p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-body-sm text-on-surface">Deterministic Rules (14)</span>
+<button class="flex items-center gap-space-xs px-space-sm py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm" type="button">
+<span class="material-symbols-outlined text-label-sm">add</span>
+<span class="">New Pattern</span>
+</button>
+</div>
+<!-- Rule Card 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-financial-numeric text-body-sm text-tertiary font-bold">#R-001 · Regex Match</span>
+<span class="px-space-xs py-0.2 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Priority 100</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded font-mono text-label-sm text-on-surface">
+            /^SALARY BATCH HDFC-SAL/i
+          </div>
+<div class="flex items-center justify-between text-label-sm text-on-surface-variant pt-space-xs">
+<span class="">Assigns: <strong class="text-on-surface">Payroll &amp; Salaries</strong></span>
+<span class="text-primary font-semibold">100% Precision (1 match)</span>
+</div>
+</div>
+<!-- Rule Card 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-financial-numeric text-body-sm text-tertiary font-bold">#R-104 · Vendor Lexicon</span>
+<span class="px-space-xs py-0.2 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Priority 85</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded font-mono text-label-sm text-on-surface">
+            CONTAINS("AMAZON AWS") OR CONTAINS("AWS CLOUD")
+          </div>
+<div class="flex items-center justify-between text-label-sm text-on-surface-variant pt-space-xs">
+<span class="">Assigns: <strong class="text-on-surface">Cloud &amp; Infrastructure</strong></span>
+<span class="text-primary font-semibold">99.4% Precision (3 matches)</span>
+</div>
+</div>
+<!-- Rule Card 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-financial-numeric text-body-sm text-tertiary font-bold">#R-045 · Statutory Tax</span>
+<span class="px-space-xs py-0.2 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Priority 90</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded font-mono text-label-sm text-on-surface">
+            MATCH("GST PMT" AND "CBIC")
+          </div>
+<div class="flex items-center justify-between text-label-sm text-on-surface-variant pt-space-xs">
+<span class="">Assigns: <strong class="text-on-surface">Tax &amp; Statutory Dues</strong></span>
+<span class="text-primary font-semibold">99.8% Precision (2 matches)</span>
+</div>
+</div>
+<!-- Feedback Suggestion -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 flex items-start gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-headline-sm">tips_and_updates</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-sm">Auto-Learn from Manual Edits</span>
+<span class="font-body-sm text-label-sm text-on-surface-variant">Whenever you approve Swiggy or CCD entries, StatementIQ can synthesize new vendor rules automatically.</span>
+</div>
+</div>
+</div>
+<!-- Drawer Footer -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<span class="text-outline font-label-sm text-label-sm">Engine state: Synchronized</span>
+<button class="px-space-lg py-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-body-sm shadow-sm transition-colors" id="saveRulesBtn" type="button">
+          Close Rules
+        </button>
+</div>
+</div>
+</div>
+<script>
+    // Micro-interactions for drawer and keyboard shortcuts
+    const drawer = document.getElementById('rulesDrawer');
+    const drawerContent = document.getElementById('rulesDrawerContent');
+    const openBtn = document.getElementById('openDrawerBtn');
+    const closeBtn = document.getElementById('closeDrawerBtn');
+    const saveBtn = document.getElementById('saveRulesBtn');
+
+    function toggleDrawer(open) {
+      if (open) {
+        drawer.classList.remove('opacity-0', 'pointer-events-none');
+        drawerContent.classList.remove('translate-x-full');
+      } else {
+        drawer.classList.add('opacity-0', 'pointer-events-none');
+        drawerContent.classList.add('translate-x-full');
+      }
+    }
+
+    if (openBtn) openBtn.addEventListener('click', () => toggleDrawer(true));
+    if (closeBtn) closeBtn.addEventListener('click', () => toggleDrawer(false));
+    if (saveBtn) saveBtn.addEventListener('click', () => toggleDrawer(false));
+
+    // Close drawer when clicking backdrop
+    if (drawer) {
+      drawer.addEventListener('click', (e) => {
+        if (e.target === drawer) toggleDrawer(false);
+      });
+    }
+
+    // Keyboard shortcut handlers
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') toggleDrawer(false);
+      // Quick search focus on "/"
+      if (e.key === '/' && !['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        const searchInput = document.querySelector('input[type="text"]');
+        if (searchInput) searchInput.focus();
+      }
+    });
+  </script>
+</div></div></main></div>
+
+<link href="{{ url_for('static', filename='css/app.css') }}" rel="stylesheet"/>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body></html>

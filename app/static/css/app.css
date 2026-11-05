@@ -1,0 +1,150 @@
+html {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.siq-hidden {
+  display: none !important;
+}
+
+/* Simplified navigation shell */
+aside nav a[data-path="statements"],
+aside nav a[data-path="settings"] {
+  display: none !important;
+}
+
+aside [class*="bg-inverse-surface/80"],
+aside .bg-on-primary-fixed-variant,
+aside .justify-between.p-space-sm.rounded-lg.bg-inverse-surface,
+aside .text-inverse-primary.font-label-sm.text-label-sm.uppercase {
+  display: none !important;
+}
+
+.siq-toast-root {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 380px;
+}
+
+.siq-toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.12);
+  font-size: 13px;
+  line-height: 18px;
+  animation: siq-toast-in 180ms ease-out;
+}
+
+.siq-toast-out {
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+@keyframes siq-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.siq-menu {
+  position: fixed;
+  z-index: 90;
+  width: 240px;
+  max-height: 288px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 18px 30px -12px rgba(15, 23, 42, 0.28);
+  padding: 6px;
+}
+
+.siq-menu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #334155;
+  text-align: left;
+  background: transparent;
+}
+
+.siq-menu-item:hover {
+  background: #f1f5f9;
+}
+
+.siq-menu-item-active {
+  background: #ecfdf5;
+  color: #047857;
+  font-weight: 600;
+}
+
+.siq-row-flash {
+  animation: siq-flash 1.2s ease-out;
+}
+
+@keyframes siq-flash {
+  0% {
+    background-color: #fef3c7;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.siq-spin {
+  animation: siq-spin 900ms linear infinite;
+}
+
+@keyframes siq-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Keep the Stitch palette stable on dynamically generated elements */
+.siq-table-select {
+  width: 100%;
+  padding: 4px 22px 4px 8px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-size: 12px;
+  line-height: 18px;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+}
+
+.siq-table-select:focus {
+  outline: none;
+  border-color: #059669;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.16);
+}
